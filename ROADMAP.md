@@ -37,20 +37,22 @@ All 19 tests pass locally (`node --test`); eslint and the test gate run clean.
 Verified locally — all green: `node --test` (19/19), htmlhint, stylelint, eslint,
 markdownlint, prettier `--check`, and codespell all report 0 problems.
 
-## Milestone 2 — Publish to new account ⏳ 0%
+## Milestone 2 — Publish to Gauthambinoy20 ✅ 100%
 
-- [ ] 2.1 Create empty repo `<newuser>.github.io` on the new GitHub account
-- [ ] 2.2 `git remote add origin` + first `git push` (only on your "push")
-- [ ] 2.3 Set repo variable `PORTFOLIO_GH_USERNAME` to the new handle
-- [ ] 2.4 Enable GitHub Pages (Settings → Pages → source: GitHub Actions)
-- [ ] 2.5 Update README badge/links URLs to the new account
-- [ ] 2.6 Confirm first CI run is green; tune any advisory check that fails
+- [x] 2.1 Created public repo `Gauthambinoy20/gauthambinoy20.github.io`
+- [x] 2.2 Pushed `main` (47 commits, single author, no AI traces)
+- [x] 2.3 Set repo variable `PORTFOLIO_GH_USERNAME=Gauthambinoy20`
+- [x] 2.4 Pages serving via GitHub Actions — **live at https://gauthambinoy20.github.io (HTTP 200)**
+- [x] 2.5 Repointed all account/domain references to Gauthambinoy20
+- [x] 2.6 CI run on GitHub is **green** (all blocking jobs pass; deploy succeeded)
 
 ## Known issues / notes
 
 - Repo MUST stay named `<username>.github.io` for Pages to serve at the root domain.
-- Lint, format, spell and test jobs are now **blocking**; only Lighthouse (scores vary by runner) and `npm audit` remain advisory.
+- Lint, format, spell, test and secret-scan are **blocking**; Lighthouse, `npm audit` and the link check are advisory.
 - `.lighthouserc.json` budgets are warnings, not hard failures — raise thresholds once real scores are known.
+- **lychee (advisory)** flags project-card links to repos not yet migrated to this account and to bot-blocking social sites (LinkedIn/X → 999). These go green as the other projects are migrated.
+- **npm audit (advisory)** reports a high vuln in puppeteer's transitive deps; fix needs a breaking `--force` bump. puppeteer looks unused in this repo — candidate for removal (needs Gautham's OK per §8).
 
 ## ✍️ TODO: my words
 
