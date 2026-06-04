@@ -2,18 +2,18 @@
 
 Tracking per CLAUDE.md §7. Cumulative % reflects migration + CI/CD setup.
 
-## Milestone 1 — Clean migration & CI/CD  ✅ 100%
+## Milestone 1 — Clean migration & CI/CD ✅ 100%
 
-- [x] 1.1 Repo hygiene (.gitignore, .editorconfig) ...... 10%  (56ef9c7, 1781af7)
-- [x] 1.2 License ....................................... 14%  (ac0b3fb)
-- [x] 1.3 Site source (html, css, js) .................. 35%  (b1c4ff4, 523ee58, e9008c3)
-- [x] 1.4 Media + SEO/PWA (assets, og, manifest, robots, sitemap) 50%  (ac8ca1d → d5e6a8a)
-- [x] 1.5 Dependencies + portfolio data ................ 58%  (e2cd94c, 4ed2cf1, 392517e)
-- [x] 1.6 Tooling configs (prettier/eslint/stylelint/htmlhint/markdownlint/lighthouse) 72%  (d44149f → b67cc19)
-- [x] 1.7 CI/CD (sync, quality gate, CodeQL, Pages, Dependabot) 92%  (2d95859 → b7c1dea)
-- [x] 1.8 README + docs ................................ 100%  (90e44a8)
+- [x] 1.1 Repo hygiene (.gitignore, .editorconfig) ...... 10% (56ef9c7, 1781af7)
+- [x] 1.2 License ....................................... 14% (ac0b3fb)
+- [x] 1.3 Site source (html, css, js) .................. 35% (b1c4ff4, 523ee58, e9008c3)
+- [x] 1.4 Media + SEO/PWA (assets, og, manifest, robots, sitemap) 50% (ac8ca1d → d5e6a8a)
+- [x] 1.5 Dependencies + portfolio data ................ 58% (e2cd94c, 4ed2cf1, 392517e)
+- [x] 1.6 Tooling configs (prettier/eslint/stylelint/htmlhint/markdownlint/lighthouse) 72% (d44149f → b67cc19)
+- [x] 1.7 CI/CD (sync, quality gate, CodeQL, Pages, Dependabot) 92% (2d95859 → b7c1dea)
+- [x] 1.8 README + docs ................................ 100% (90e44a8)
 
-## Milestone 1b — CLAUDE.md compliance pass  ✅ 100%
+## Milestone 1b — CLAUDE.md compliance pass ✅ 100%
 
 - [x] 1b.1 Smoke test — site serves HTTP 200, renders, all assets resolve (§2c, verified locally)
 - [x] 1b.2 Test runner wired (`npm test` → node --test) ... (b0b8a76)
@@ -25,7 +25,7 @@ Tracking per CLAUDE.md §7. Cumulative % reflects migration + CI/CD setup.
 
 All 19 tests pass locally (`node --test`); eslint and the test gate run clean.
 
-## Milestone 2 — Publish to new account  ⏳ 0%
+## Milestone 2 — Publish to new account ⏳ 0%
 
 - [ ] 2.1 Create empty repo `<newuser>.github.io` on the new GitHub account
 - [ ] 2.2 `git remote add origin` + first `git push` (only on your "push")

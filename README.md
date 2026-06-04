@@ -23,7 +23,7 @@
 
 **→ [gauthambinoy.github.io](https://gauthambinoy.github.io)**
 
-Go ahead, open it. Move your cursor around. Scroll slowly. This thing was built to be *felt*, not just seen.
+Go ahead, open it. Move your cursor around. Scroll slowly. This thing was built to be _felt_, not just seen.
 
 ---
 
@@ -44,7 +44,7 @@ I think most portfolio sites are boring. A hero section, some cards, a contact f
 I wanted mine to feel like entering a space. Something cinematic. Something that makes you slow down and look. So I made a few decisions early on that shaped everything:
 
 **1. Atmosphere over information**
-The aurora borealis videos aren't decorative — they *are* the mood. Five separate video assets across the page, each one slightly different, creating a sense of depth and movement that no CSS gradient will ever replicate.
+The aurora borealis videos aren't decorative — they _are_ the mood. Five separate video assets across the page, each one slightly different, creating a sense of depth and movement that no CSS gradient will ever replicate.
 
 **2. The cursor is a character**
 Most sites ignore the cursor. I made it the most elaborate element on the page. It reacts to every surface: it morphs when you hover links, it bursts when you click, it leaves a comet trail as you move, it glows. After using it for a while it starts to feel like an extension of your hand.
@@ -60,7 +60,9 @@ The dark mode accent is `#c8ff00` — electric lime. The light mode accent is `#
 ## Features
 
 ### Cursor System
+
 A fully custom six-layer cursor built from scratch in vanilla JS:
+
 - **Dot** — tight, precise, replaces the OS cursor
 - **Circle** — larger trailing ring with elastic follow physics
 - **Comet trail** — particle streak that follows velocity
@@ -71,6 +73,7 @@ A fully custom six-layer cursor built from scratch in vanilla JS:
 - Magnetic buttons with 30% cursor follow strength — buttons pull the cursor in as you approach
 
 ### Animations
+
 - **Preloader** — full-screen count-up from 0 to 100%, custom-timed with a reveal sweep
 - **Split text reveals** — every headline is split to individual characters, animated in with GSAP stagger
 - **ScrollTrigger sequences** — sections snap into motion as they enter the viewport
@@ -80,6 +83,7 @@ A fully custom six-layer cursor built from scratch in vanilla JS:
 - **Lenis smooth scroll** — buttery inertia-based scroll instead of the browser default
 
 ### Visual Design
+
 - Aurora borealis cinematic video backgrounds (5 assets, full-bleed)
 - Glass-morphism cards with `backdrop-filter: blur`
 - Grain overlay texture for depth
@@ -92,17 +96,17 @@ A fully custom six-layer cursor built from scratch in vanilla JS:
 
 Everything is handwritten. There is no build tool, no transpiler, no package manager. You could open `index.html` directly in a browser and it would work.
 
-| Layer | Technology |
-|---|---|
-| Structure | HTML5 (semantic, accessible) |
-| Style | CSS3 — custom properties, grid, flexbox, animations |
-| Logic | Vanilla JavaScript (ES2020+) |
-| Animation engine | GSAP 3 + ScrollTrigger plugin |
-| Smooth scroll | Lenis |
-| Text splitting | Splitting.js |
-| Fonts | Space Grotesk, Inter, JetBrains Mono, Syne (Google Fonts) |
-| Video | H.264 MP4 — aurora borealis cinematic footage |
-| Hosting | GitHub Pages |
+| Layer            | Technology                                                |
+| ---------------- | --------------------------------------------------------- |
+| Structure        | HTML5 (semantic, accessible)                              |
+| Style            | CSS3 — custom properties, grid, flexbox, animations       |
+| Logic            | Vanilla JavaScript (ES2020+)                              |
+| Animation engine | GSAP 3 + ScrollTrigger plugin                             |
+| Smooth scroll    | Lenis                                                     |
+| Text splitting   | Splitting.js                                              |
+| Fonts            | Space Grotesk, Inter, JetBrains Mono, Syne (Google Fonts) |
+| Video            | H.264 MP4 — aurora borealis cinematic footage             |
+| Hosting          | GitHub Pages                                              |
 
 ---
 
@@ -111,15 +115,19 @@ Everything is handwritten. There is no build tool, no transpiler, no package man
 Four live products on the site, each one something I actually built and shipped:
 
 ### ClarityAI
+
 An intelligent document understanding tool. Drag in a PDF, get structured insight back. Built around a RAG pipeline with semantic search and context-aware responses. The kind of tool I wanted to exist, so I built it.
 
 ### ResumeShield
+
 A resume screener and analyzer. Parses resumes against job descriptions, scores fit, flags gaps. Built with FastAPI on the backend, React on the front. Helped me rethink how hiring tools should actually feel to use.
 
 ### Unified World Data
+
 A global data aggregation and visualization platform. Takes fragmented public datasets and surfaces them in clean, interactive dashboards. A project about making information accessible and legible.
 
 ### CryptoStock Pro
+
 Real-time crypto and stock tracking with portfolio simulation. WebSocket price feeds, candlestick charts, alert system. Built it to learn the financial data ecosystem — ended up being one of my most technically demanding projects.
 
 ---
@@ -170,20 +178,20 @@ Every push to `main` runs a full quality gate, then deploys to [GitHub Pages](ht
 
 **`ci.yml` — quality gate (runs on push + PR)**
 
-| Stage | Tool | Blocking? |
-|---|---|---|
-| Tests | node --test | **blocking** |
-| HTML lint | htmlhint | advisory |
-| CSS lint | stylelint | advisory |
-| JS lint | eslint | advisory |
-| Format check | prettier | advisory |
-| Markdown lint | markdownlint | advisory |
-| Spellcheck | codespell | advisory |
-| Link check | lychee | **blocking** |
-| Performance / a11y / SEO | Lighthouse CI | advisory |
-| Secret scan | gitleaks | **blocking** |
-| Dependency review (PR) | dependency-review-action | **blocking** |
-| Dependency audit | npm audit | advisory |
+| Stage                    | Tool                     | Blocking?    |
+| ------------------------ | ------------------------ | ------------ |
+| Tests                    | node --test              | **blocking** |
+| HTML lint                | htmlhint                 | advisory     |
+| CSS lint                 | stylelint                | advisory     |
+| JS lint                  | eslint                   | advisory     |
+| Format check             | prettier                 | advisory     |
+| Markdown lint            | markdownlint             | advisory     |
+| Spellcheck               | codespell                | advisory     |
+| Link check               | lychee                   | **blocking** |
+| Performance / a11y / SEO | Lighthouse CI            | advisory     |
+| Secret scan              | gitleaks                 | **blocking** |
+| Dependency review (PR)   | dependency-review-action | **blocking** |
+| Dependency audit         | npm audit                | advisory     |
 
 **`codeql.yml`** — CodeQL static analysis (SAST) for JavaScript, on push, PR, and weekly.
 
@@ -193,16 +201,16 @@ Plus **Dependabot** (`.github/dependabot.yml`) opens weekly PRs to keep npm deps
 
 A **daily workflow** (`sync-repos.yml`) auto-syncs project data from the GitHub API into `portfolio-data.json`, consumed by `script.js` to keep stats like "Public Repos" always current — no manual editing needed. Set the repository variable `PORTFOLIO_GH_USERNAME` to point it at the right account.
 
-| File | Purpose |
-|---|---|
-| `index.html` | The entire site structure — semantic HTML, ARIA landmarks, structured data |
-| `style.css` | All styles — responsive breakpoints at 1200px, 1024px, 768px, and 480px |
-| `script.js` | All interactivity — cursor, animations, GSAP, data sync |
-| `portfolio-data.json` | Auto-synced project metadata from GitHub API |
-| `manifest.json` | PWA manifest for app-like installation |
-| `robots.txt` | Search engine crawl directives |
-| `sitemap.xml` | XML sitemap for SEO |
-| `og-image.png` | Open Graph social sharing preview image |
+| File                  | Purpose                                                                    |
+| --------------------- | -------------------------------------------------------------------------- |
+| `index.html`          | The entire site structure — semantic HTML, ARIA landmarks, structured data |
+| `style.css`           | All styles — responsive breakpoints at 1200px, 1024px, 768px, and 480px    |
+| `script.js`           | All interactivity — cursor, animations, GSAP, data sync                    |
+| `portfolio-data.json` | Auto-synced project metadata from GitHub API                               |
+| `manifest.json`       | PWA manifest for app-like installation                                     |
+| `robots.txt`          | Search engine crawl directives                                             |
+| `sitemap.xml`         | XML sitemap for SEO                                                        |
+| `og-image.png`        | Open Graph social sharing preview image                                    |
 
 ---
 
