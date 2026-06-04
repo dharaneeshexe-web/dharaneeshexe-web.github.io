@@ -1,0 +1,145 @@
+name: CI
+
+# Quality gate for the static portfolio site.
+# Runs on every push and pull request. Lint/format/spell jobs are advisory
+# (they report but don't block) so day-to-day edits stay frictionless; the
+# security and link-integrity jobs are blocking.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Least-privilege by default; individual jobs opt in to more if needed.
+permissions:
+  contents: read
+
+# Cancel superseded runs on the same ref to save Action minutes.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  html-lint:
+    name: HTML lint (htmlhint)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npx --yes htmlhint@1.1.4 "**/*.html" --config .htmlhintrc
+
+  css-lint:
+    name: CSS lint (stylelint)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: >
+          npx --yes
+          -p stylelint@16.10.0
+          -p stylelint-config-standard@36.0.1
+          stylelint "**/*.css"
+
+  js-lint:
+    name: JS lint (eslint)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npx --yes eslint@9.15.0 .
+
+  format-check:
+    name: Format check (prettier)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npx --yes prettier@3.4.1 --check .
+
+  markdown-lint:
+    name: Markdown lint (markdownlint)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - run: npx --yes markdownlint-cli2@0.15.0 "**/*.md" "#node_modules"
+
+  spellcheck:
+    name: Spellcheck (codespell)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: codespell-project/actions-codespell@v2
+        with:
+          skip: ./assets,./package-lock.json,./portfolio-data.json,./og-image.png
+          ignore_words_list: nd,te,ot
+
+  link-check:
+    name: Link check (lychee)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links in HTML and Markdown
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,206,429 "**/*.html" "**/*.md"
+          fail: true
+
+  lighthouse:
+    name: Lighthouse (perf / a11y / SEO / best-practices)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: ./.lighthouserc.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+
+  secret-scan:
+    name: Secret scan (gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  dependency-review:
+    name: Dependency review (PR only)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: high
+
+  npm-audit:
+    name: Dependency audit (npm)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm audit --audit-level=high
