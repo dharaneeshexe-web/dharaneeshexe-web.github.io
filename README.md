@@ -1,6 +1,6 @@
 <div align="center">
 
-# gauthambinoy.github.io
+# gauthambinoy20.github.io
 
 ### My corner of the internet. Hand-coded from scratch. No frameworks. No shortcuts.
 
@@ -11,9 +11,9 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
 
-[![CI](https://github.com/gauthambinoy/gauthambinoy.github.io/actions/workflows/ci.yml/badge.svg)](./.github/workflows/ci.yml)
-[![CodeQL](https://github.com/gauthambinoy/gauthambinoy.github.io/actions/workflows/codeql.yml/badge.svg)](./.github/workflows/codeql.yml)
-[![Deploy](https://github.com/gauthambinoy/gauthambinoy.github.io/actions/workflows/deploy-pages.yml/badge.svg)](./.github/workflows/deploy-pages.yml)
+[![CI](https://github.com/Gauthambinoy20/gauthambinoy20.github.io/actions/workflows/ci.yml/badge.svg)](./.github/workflows/ci.yml)
+[![CodeQL](https://github.com/Gauthambinoy20/gauthambinoy20.github.io/actions/workflows/codeql.yml/badge.svg)](./.github/workflows/codeql.yml)
+[![Deploy](https://github.com/Gauthambinoy20/gauthambinoy20.github.io/actions/workflows/deploy-pages.yml/badge.svg)](./.github/workflows/deploy-pages.yml)
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ## ✨ Live Site
 
-**→ [gauthambinoy.github.io](https://gauthambinoy.github.io)**
+**→ [gauthambinoy20.github.io](https://gauthambinoy20.github.io)**
 
 Go ahead, open it. Move your cursor around. Scroll slowly. This thing was built to be _felt_, not just seen.
 
@@ -137,8 +137,8 @@ Real-time crypto and stock tracking with portfolio simulation. WebSocket price f
 No install step. No environment setup. Just:
 
 ```bash
-git clone https://github.com/gauthambinoy/gauthambinoy.github.io.git
-cd gauthambinoy.github.io
+git clone https://github.com/Gauthambinoy20/gauthambinoy20.github.io.git
+cd gauthambinoy20.github.io
 ```
 
 Then open `index.html` in your browser. That's it.
@@ -259,8 +259,8 @@ If you do use any of the cursor or animation code for your own project, I'd love
 
 <div align="center">
 
-**Built by [Gautham Binoy](https://github.com/gauthambinoy) — Full Stack Developer & AI Engineer**
+**Built by [Gautham Binoy](https://github.com/Gauthambinoy20) — Full Stack Developer & AI Engineer**
 
-[gauthambinoy.github.io](https://gauthambinoy.github.io) · [GitHub](https://github.com/gauthambinoy) · [LinkedIn](https://linkedin.com/in/gauthambinoy) · [Twitter/X](https://twitter.com/gauthambinoy)
+[gauthambinoy20.github.io](https://gauthambinoy20.github.io) · [GitHub](https://github.com/Gauthambinoy20) · [LinkedIn](https://linkedin.com/in/gauthambinoy) · [Twitter/X](https://twitter.com/gauthambinoy)
 
 </div>
