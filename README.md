@@ -181,16 +181,16 @@ Every push to `main` runs a full quality gate, then deploys to [GitHub Pages](ht
 | Stage                    | Tool                     | Blocking?    |
 | ------------------------ | ------------------------ | ------------ |
 | Tests                    | node --test              | **blocking** |
-| HTML lint                | htmlhint                 | advisory     |
-| CSS lint                 | stylelint                | advisory     |
-| JS lint                  | eslint                   | advisory     |
-| Format check             | prettier                 | advisory     |
-| Markdown lint            | markdownlint             | advisory     |
-| Spellcheck               | codespell                | advisory     |
+| HTML lint                | htmlhint                 | **blocking** |
+| CSS lint                 | stylelint                | **blocking** |
+| JS lint                  | eslint                   | **blocking** |
+| Format check             | prettier                 | **blocking** |
+| Markdown lint            | markdownlint             | **blocking** |
+| Spellcheck               | codespell                | **blocking** |
 | Link check               | lychee                   | **blocking** |
-| Performance / a11y / SEO | Lighthouse CI            | advisory     |
 | Secret scan              | gitleaks                 | **blocking** |
 | Dependency review (PR)   | dependency-review-action | **blocking** |
+| Performance / a11y / SEO | Lighthouse CI            | advisory     |
 | Dependency audit         | npm audit                | advisory     |
 
 **`codeql.yml`** — CodeQL static analysis (SAST) for JavaScript, on push, PR, and weekly.

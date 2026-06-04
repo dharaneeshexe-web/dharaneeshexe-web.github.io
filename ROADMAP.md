@@ -25,6 +25,18 @@ Tracking per CLAUDE.md §7. Cumulative % reflects migration + CI/CD setup.
 
 All 19 tests pass locally (`node --test`); eslint and the test gate run clean.
 
+## Milestone 1c — 10/10 quality hardening ✅ 100%
+
+- [x] 1c.1 Pinned dev tooling + lint scripts (npm ci, local bins) ... (91d0dea)
+- [x] 1c.2 Stylelint tuned to the hand-authored CSS — 0 problems ... (d622533)
+- [x] 1c.3 Escape bare ampersands — htmlhint clean ............... (c42f399)
+- [x] 1c.4 Prettier: ignore hand-written source, format docs ..... (84c1efd, 7715893)
+- [x] 1c.5 Markdownlint clean ................................... (09b050d)
+- [x] 1c.6 CI runs local tools; lint/format/spell now blocking ... (0eea950)
+
+Verified locally — all green: `node --test` (19/19), htmlhint, stylelint, eslint,
+markdownlint, prettier `--check`, and codespell all report 0 problems.
+
 ## Milestone 2 — Publish to new account ⏳ 0%
 
 - [ ] 2.1 Create empty repo `<newuser>.github.io` on the new GitHub account
@@ -37,9 +49,8 @@ All 19 tests pass locally (`node --test`); eslint and the test gate run clean.
 ## Known issues / notes
 
 - Repo MUST stay named `<username>.github.io` for Pages to serve at the root domain.
-- Lint/format jobs are advisory (won't block) until the codebase is cleaned to pass; tighten to blocking later.
-- `.lighthouserc.json` budgets are warnings, not hard failures — raise thresholds once scores are known.
-- htmlhint reports 8 unescaped `&` characters in index.html prose (e.g. "AI & ML"). Cosmetic — browsers render fine — so it's advisory. Fix later by escaping to `&amp;` (needs your OK since it edits hand-written copy).
+- Lint, format, spell and test jobs are now **blocking**; only Lighthouse (scores vary by runner) and `npm audit` remain advisory.
+- `.lighthouserc.json` budgets are warnings, not hard failures — raise thresholds once real scores are known.
 
 ## ✍️ TODO: my words
 
