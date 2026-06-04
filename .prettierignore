@@ -4,3 +4,11 @@ package-lock.json
 portfolio-data.json
 *.min.js
 *.min.css
+
+# Hand-authored site source — intentionally formatted by hand, no build step.
+index.html
+style.css
+script.js
+
+# Embedded Python heredoc with significant indentation — leave verbatim.
+.github/workflows/sync-repos.yml
