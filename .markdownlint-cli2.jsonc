@@ -4,6 +4,8 @@
     "MD013": false, // line length — prose is fine long
     "MD033": false, // inline HTML — README uses <div align="center">
     "MD041": false, // first line heading — README opens with a div
+    "MD001": false, // styled h3 subtitle under the h1 title block
+    "MD026": false, // periods in the styled tagline heading are intentional
   },
   "globs": ["**/*.md"],
   "ignores": ["node_modules"],
