@@ -2,8 +2,9 @@ name: CI
 
 # Quality gate for the static portfolio site. Runs on every push and pull
 # request. Tools are pinned devDependencies, installed once per job via
-# `npm ci` for reproducibility. All quality jobs are blocking; only Lighthouse
-# (scores vary by runner) and the npm audit are advisory.
+# `npm ci` for reproducibility. Lint, format, spell, test and secret-scan are
+# blocking; Lighthouse (scores vary), npm audit and the link check (links to
+# not-yet-migrated repos and bot-blocking social sites) are advisory.
 
 on:
   push:
@@ -104,12 +105,16 @@ jobs:
   link-check:
     name: Link check (lychee)
     runs-on: ubuntu-latest
+    # Advisory: the portfolio intentionally links to projects not yet migrated
+    # to this account and to social sites that block bots (LinkedIn/X return
+    # 999). It reports dead links without blocking the gate.
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - name: Check links in HTML and Markdown
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --accept 200,206,429 "**/*.html" "**/*.md"
+          args: --no-progress --accept 200,206,429,999 "**/*.html" "**/*.md"
           fail: true
 
   lighthouse:

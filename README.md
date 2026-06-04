@@ -187,9 +187,9 @@ Every push to `main` runs a full quality gate, then deploys to [GitHub Pages](ht
 | Format check             | prettier                 | **blocking** |
 | Markdown lint            | markdownlint             | **blocking** |
 | Spellcheck               | codespell                | **blocking** |
-| Link check               | lychee                   | **blocking** |
 | Secret scan              | gitleaks                 | **blocking** |
 | Dependency review (PR)   | dependency-review-action | **blocking** |
+| Link check               | lychee                   | advisory     |
 | Performance / a11y / SEO | Lighthouse CI            | advisory     |
 | Dependency audit         | npm audit                | advisory     |
 
