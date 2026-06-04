@@ -1,0 +1,6 @@
+assets/
+og-image.png
+package-lock.json
+portfolio-data.json
+*.min.js
+*.min.css
