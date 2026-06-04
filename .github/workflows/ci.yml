@@ -1,9 +1,9 @@
 name: CI
 
-# Quality gate for the static portfolio site.
-# Runs on every push and pull request. Lint/format/spell jobs are advisory
-# (they report but don't block) so day-to-day edits stay frictionless; the
-# security and link-integrity jobs are blocking.
+# Quality gate for the static portfolio site. Runs on every push and pull
+# request. Tools are pinned devDependencies, installed once per job via
+# `npm ci` for reproducibility. All quality jobs are blocking; only Lighthouse
+# (scores vary by runner) and the npm audit are advisory.
 
 on:
   push:
@@ -34,63 +34,66 @@ jobs:
   html-lint:
     name: HTML lint (htmlhint)
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npx --yes htmlhint@1.1.4 "**/*.html" --config .htmlhintrc
+          cache: npm
+      - run: npm ci
+      - run: npm run lint:html
 
   css-lint:
     name: CSS lint (stylelint)
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: >
-          npx --yes
-          -p stylelint@16.10.0
-          -p stylelint-config-standard@36.0.1
-          stylelint "**/*.css"
+          cache: npm
+      - run: npm ci
+      - run: npm run lint:css
 
   js-lint:
     name: JS lint (eslint)
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npx --yes eslint@9.15.0 .
+          cache: npm
+      - run: npm ci
+      - run: npm run lint:js
 
   format-check:
     name: Format check (prettier)
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npx --yes prettier@3.4.1 --check .
+          cache: npm
+      - run: npm ci
+      - run: npm run format:check
 
   markdown-lint:
     name: Markdown lint (markdownlint)
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
-      - run: npx --yes markdownlint-cli2@0.15.0 "**/*.md" "#node_modules"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run lint:md
 
   spellcheck:
     name: Spellcheck (codespell)
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: codespell-project/actions-codespell@v2
