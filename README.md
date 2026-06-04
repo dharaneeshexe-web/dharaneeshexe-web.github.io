@@ -152,6 +152,18 @@ The site has no dependencies to install, no build step to run, no `.env` file to
 
 ---
 
+## Testing
+
+Lightweight checks run on Node's built-in test runner — no test framework to install:
+
+```bash
+npm test   # runs node --test over tests/
+```
+
+They validate the things that would silently break the live site: `portfolio-data.json` is valid and well-shaped, every local file referenced by `index.html` exists, and the SEO/meta essentials (title, lang, Open Graph, canonical, JSON-LD) plus `robots.txt`/`sitemap.xml`/`manifest.json` are present.
+
+---
+
 ## Deployment & CI/CD
 
 Every push to `main` runs a full quality gate, then deploys to [GitHub Pages](https://pages.github.com) automatically. Three workflows drive it:
@@ -160,6 +172,7 @@ Every push to `main` runs a full quality gate, then deploys to [GitHub Pages](ht
 
 | Stage | Tool | Blocking? |
 |---|---|---|
+| Tests | node --test | **blocking** |
 | HTML lint | htmlhint | advisory |
 | CSS lint | stylelint | advisory |
 | JS lint | eslint | advisory |
