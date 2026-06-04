@@ -4,9 +4,24 @@
   "description": "Hand-coded personal portfolio site. No frameworks, no build step.",
   "private": true,
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "lint:html": "htmlhint \"**/*.html\" --config .htmlhintrc",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:js": "eslint .",
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js && npm run lint:md && npm run format:check"
   },
   "dependencies": {
     "puppeteer": "^24.40.0"
+  },
+  "devDependencies": {
+    "eslint": "9.15.0",
+    "htmlhint": "1.1.4",
+    "markdownlint-cli2": "0.15.0",
+    "prettier": "3.4.1",
+    "stylelint": "16.10.0",
+    "stylelint-config-standard": "36.0.1"
   }
 }
