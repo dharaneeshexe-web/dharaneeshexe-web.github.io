@@ -42,7 +42,7 @@ markdownlint, prettier `--check`, and codespell all report 0 problems.
 - [x] 2.1 Created public repo `Gauthambinoy20/gauthambinoy20.github.io`
 - [x] 2.2 Pushed `main` (47 commits, single author, no AI traces)
 - [x] 2.3 Set repo variable `PORTFOLIO_GH_USERNAME=Gauthambinoy20`
-- [x] 2.4 Pages serving via GitHub Actions — **live at https://gauthambinoy20.github.io (HTTP 200)**
+- [x] 2.4 Pages serving via GitHub Actions — **live at <https://gauthambinoy20.github.io> (HTTP 200)**
 - [x] 2.5 Repointed all account/domain references to Gauthambinoy20
 - [x] 2.6 CI run on GitHub is **green** (all blocking jobs pass; deploy succeeded)
 
