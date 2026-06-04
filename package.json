@@ -1,4 +1,11 @@
 {
+  "name": "gauthambinoy-portfolio",
+  "version": "1.0.0",
+  "description": "Hand-coded personal portfolio site. No frameworks, no build step.",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
   "dependencies": {
     "puppeteer": "^24.40.0"
   }
