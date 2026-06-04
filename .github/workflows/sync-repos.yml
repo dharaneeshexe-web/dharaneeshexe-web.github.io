@@ -1,0 +1,127 @@
+name: Auto-Sync GitHub Repos
+
+# Nightly job: pull the latest public repos from the GitHub API and refresh
+# portfolio-data.json so the site's project grid and stats stay current.
+# Commits are authored by Gautham Binoy (not a bot). Set the repository
+# variable PORTFOLIO_GH_USERNAME after moving accounts; it falls back to the
+# original handle otherwise.
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # every day at midnight UTC
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch repos and update portfolio-data.json
+        env:
+          GITHUB_USERNAME: ${{ vars.PORTFOLIO_GH_USERNAME || 'gauthambinoy' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'EOF'
+          import urllib.request, urllib.error, json, os
+          from datetime import datetime, timezone
+
+          username = os.environ["GITHUB_USERNAME"]
+          token = os.environ.get("GITHUB_TOKEN", "")
+
+          headers = {
+              "Accept": "application/vnd.github.v3+json",
+              "User-Agent": "portfolio-sync",
+          }
+          if token:
+              headers["Authorization"] = f"token {token}"
+
+          url = f"https://api.github.com/users/{username}/repos?sort=pushed&per_page=100"
+          req = urllib.request.Request(url, headers=headers)
+          with urllib.request.urlopen(req) as resp:
+              repos = json.loads(resp.read())
+
+          # Skip forks and empty repos
+          repos = [r for r in repos if not r["fork"] and not r["size"] == 0]
+
+          gradients = [
+              "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+              "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+              "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
+              "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
+              "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+              "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
+          ]
+
+          def build_stack(repo):
+              stack = []
+              if repo.get("language"):
+                  stack.append(repo["language"])
+              for t in (repo.get("topics") or [])[:3]:
+                  stack.append(t.replace("-", " ").title())
+              desc = (repo.get("description") or "").lower()
+              for kw, label in [
+                  ("react","React"),("next","Next.js"),("node","Node.js"),
+                  ("fastapi","FastAPI"),("django","Django"),("flask","Flask"),
+                  ("typescript","TypeScript"),("docker","Docker"),("gemini","Gemini"),
+              ]:
+                  if kw in desc and label not in stack:
+                      stack.append(label)
+              return list(dict.fromkeys(stack))[:5]
+
+          projects = []
+          for i, repo in enumerate(repos):
+              projects.append({
+                  "id": repo["id"],
+                  "num": str(i + 1).zfill(2),
+                  "name": repo["name"],
+                  "category": repo.get("language") or "Open Source",
+                  "description": repo.get("description") or "A GitHub project",
+                  "stack": build_stack(repo),
+                  "gradient": gradients[i % len(gradients)],
+                  "links": {
+                      "github": repo["html_url"],
+                      "demo": repo.get("homepage") or None,
+                  },
+                  "stats": {
+                      "stars": repo["stargazers_count"],
+                      "forks": repo["forks_count"],
+                      "language": repo.get("language"),
+                      "topics": repo.get("topics") or [],
+                      "lastUpdated": repo["updated_at"],
+                  },
+                  "synced": True,
+                  "syncedAt": datetime.now(timezone.utc).isoformat(),
+              })
+
+          # Read existing portfolio-data.json, preserve non-synced manual entries
+          try:
+              with open("portfolio-data.json") as f:
+                  data = json.load(f)
+          except Exception:
+              data = {}
+
+          manual = [p for p in data.get("projects", []) if not p.get("synced")]
+          data["projects"] = projects + manual
+          data["lastGitHubSync"] = datetime.now(timezone.utc).isoformat()
+          data["gitHubUsername"] = username
+          data["totalRepos"] = len(projects)
+
+          with open("portfolio-data.json", "w") as f:
+              json.dump(data, f, indent=2)
+
+          print(f"Synced {len(projects)} repos")
+          EOF
+
+      - name: Commit updated portfolio data
+        run: |
+          git config user.name "Gautham Binoy"
+          git config user.email "gautham.binoy005@gmail.com"
+          git add portfolio-data.json
+          git diff --staged --quiet && echo "No changes" || git commit -m "chore: refresh portfolio data from GitHub API [skip ci]"
+          git push
