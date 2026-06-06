@@ -1,60 +1,8 @@
 {
   "projects": [
     {
-      "id": 1260204905,
-      "num": "01",
-      "name": "quantum-ledger",
-      "category": "JavaScript",
-      "description": "Real-time stock & crypto portfolio tracker with AI market intelligence \u2014 FastAPI + React + Terraform.",
-      "stack": [
-        "JavaScript",
-        "React",
-        "FastAPI"
-      ],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/quantum-ledger",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "JavaScript",
-        "topics": [],
-        "lastUpdated": "2026-06-05T08:59:09Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-06-05T11:51:56.291768+00:00"
-    },
-    {
-      "id": 1259829551,
-      "num": "02",
-      "name": "gnosis",
-      "category": "Python",
-      "description": "AI agent automation platform \u2014 FastAPI + Next.js, 4-tier memory, self-learning, LLM gateway, Terraform AWS.",
-      "stack": [
-        "Python",
-        "Next.js",
-        "FastAPI"
-      ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/gnosis",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "Python",
-        "topics": [],
-        "lastUpdated": "2026-06-05T07:50:45Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-06-05T11:51:56.291797+00:00"
-    },
-    {
       "id": 1259761694,
-      "num": "03",
+      "num": "01",
       "name": "Glyph",
       "category": "Python",
       "description": "Glyph \u2014 ask questions about any codebase and get answers grounded in the real code, with file:line citations. RAG over a GitHub repo: tree-sitter chunking, local embeddings, hybrid retrieval.",
@@ -64,7 +12,7 @@
         "Code Search",
         "Embeddings"
       ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
+      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/Glyph",
         "demo": null
@@ -85,10 +33,58 @@
           "react",
           "tree-sitter"
         ],
-        "lastUpdated": "2026-06-04T23:16:36Z"
+        "lastUpdated": "2026-06-06T09:11:33Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-05T11:51:56.291814+00:00"
+      "syncedAt": "2026-06-06T09:14:16.471413+00:00"
+    },
+    {
+      "id": 1260688822,
+      "num": "02",
+      "name": "PolyCortex",
+      "category": "Python",
+      "description": "PolyCortex \u2014 the neural Polymarket prediction brain: Bayesian edge + TCN ensemble, isotonic calibration, HMM regime detection, fractional-Kelly sizing, paper trading, backtester and a Streamlit dashboard.",
+      "stack": [
+        "Python"
+      ],
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/PolyCortex",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "lastUpdated": "2026-06-05T19:35:44Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-06-06T09:14:16.471448+00:00"
+    },
+    {
+      "id": 1260613491,
+      "num": "03",
+      "name": "meridian",
+      "category": "TypeScript",
+      "description": "A GitHub project",
+      "stack": [
+        "TypeScript"
+      ],
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/meridian",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "lastUpdated": "2026-06-05T17:22:51Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-06-06T09:14:16.471458+00:00"
     },
     {
       "id": 1259815779,
@@ -109,13 +105,65 @@
         "forks": 0,
         "language": "HTML",
         "topics": [],
-        "lastUpdated": "2026-06-04T22:29:22Z"
+        "lastUpdated": "2026-06-05T11:52:00Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-05T11:51:56.291822+00:00"
+      "syncedAt": "2026-06-06T09:14:16.471465+00:00"
+    },
+    {
+      "id": 1260204905,
+      "num": "05",
+      "name": "quantum-ledger",
+      "category": "JavaScript",
+      "description": "Real-time stock & crypto portfolio tracker with AI market intelligence \u2014 FastAPI + React + Terraform.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "FastAPI"
+      ],
+      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/quantum-ledger",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "lastUpdated": "2026-06-05T08:59:09Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-06-06T09:14:16.471473+00:00"
+    },
+    {
+      "id": 1259829551,
+      "num": "06",
+      "name": "gnosis",
+      "category": "Python",
+      "description": "AI agent automation platform \u2014 FastAPI + Next.js, 4-tier memory, self-learning, LLM gateway, Terraform AWS.",
+      "stack": [
+        "Python",
+        "Next.js",
+        "FastAPI"
+      ],
+      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/gnosis",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "lastUpdated": "2026-06-05T07:50:45Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-06-06T09:14:16.471483+00:00"
     }
   ],
-  "lastGitHubSync": "2026-06-05T11:51:56.292043+00:00",
+  "lastGitHubSync": "2026-06-06T09:14:16.471616+00:00",
   "gitHubUsername": "Gauthambinoy20",
-  "totalRepos": 4
+  "totalRepos": 6
 }
