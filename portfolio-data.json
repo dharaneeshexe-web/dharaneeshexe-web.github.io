@@ -1,34 +1,56 @@
 {
   "projects": [
     {
-      "id": 1261628006,
+      "id": 1262760642,
       "num": "01",
-      "name": "clarity-ai",
-      "category": "Python",
-      "description": "AI text detection, plagiarism and humanization platform \u2014 18-signal ensemble, FastAPI + React",
+      "name": "warzone",
+      "category": "JavaScript",
+      "description": "WARZONE: Last Stand \u2014 a neon Vice City browser FPS. Three.js, wave survival, bosses, shop progression. Installable PWA.",
       "stack": [
-        "Python",
-        "React",
-        "FastAPI"
+        "JavaScript"
       ],
       "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
-        "github": "https://github.com/Gauthambinoy20/clarity-ai",
+        "github": "https://github.com/Gauthambinoy20/warzone",
         "demo": null
       },
       "stats": {
         "stars": 0,
         "forks": 0,
-        "language": "Python",
+        "language": "JavaScript",
         "topics": [],
-        "lastUpdated": "2026-06-07T10:14:51Z"
+        "lastUpdated": "2026-06-08T09:50:07Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886659+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923235+00:00"
+    },
+    {
+      "id": 1261557358,
+      "num": "02",
+      "name": "Orion-OS",
+      "category": "Shell",
+      "description": "An AI-first, image-based Linux desktop \u2014 atomic, signed, local-first AI. Built on Fedora Atomic (Universal Blue) + KDE Plasma 6 via BlueBuild.",
+      "stack": [
+        "Shell"
+      ],
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/Orion-OS",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Shell",
+        "topics": [],
+        "lastUpdated": "2026-06-07T00:01:00Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-06-08T14:51:38.923271+00:00"
     },
     {
       "id": 1259761694,
-      "num": "02",
+      "num": "03",
       "name": "Glyph",
       "category": "Python",
       "description": "Glyph \u2014 ask questions about any codebase and get answers grounded in the real code, with file:line citations. RAG over a GitHub repo: tree-sitter chunking, local embeddings, hybrid retrieval.",
@@ -38,7 +60,7 @@
         "Code Search",
         "Embeddings"
       ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/Glyph",
         "demo": null
@@ -59,45 +81,71 @@
           "react",
           "tree-sitter"
         ],
-        "lastUpdated": "2026-06-07T10:00:12Z"
+        "lastUpdated": "2026-06-07T15:46:27Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886702+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923292+00:00"
     },
     {
-      "id": 1261557358,
-      "num": "03",
-      "name": "Orion-OS",
-      "category": "Shell",
-      "description": "An AI-first, image-based Linux desktop \u2014 atomic, signed, local-first AI. Built on Fedora Atomic (Universal Blue) + KDE Plasma 6 via BlueBuild.",
+      "id": 1261628006,
+      "num": "04",
+      "name": "clarity-ai",
+      "category": "Python",
+      "description": "AI text detection, plagiarism and humanization platform \u2014 18-signal ensemble, FastAPI + React",
       "stack": [
-        "Shell"
+        "Python",
+        "React",
+        "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
+      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
       "links": {
-        "github": "https://github.com/Gauthambinoy20/Orion-OS",
+        "github": "https://github.com/Gauthambinoy20/clarity-ai",
         "demo": null
       },
       "stats": {
         "stars": 0,
         "forks": 0,
-        "language": "Shell",
+        "language": "Python",
         "topics": [],
-        "lastUpdated": "2026-06-07T00:01:00Z"
+        "lastUpdated": "2026-06-07T13:29:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886718+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923305+00:00"
+    },
+    {
+      "id": 1259815779,
+      "num": "05",
+      "name": "gauthambinoy20.github.io",
+      "category": "HTML",
+      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
+      "stack": [
+        "HTML"
+      ],
+      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "lastUpdated": "2026-06-07T10:15:19Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-06-08T14:51:38.923313+00:00"
     },
     {
       "id": 1261586020,
-      "num": "04",
+      "num": "06",
       "name": "kestrel",
       "category": "TypeScript",
       "description": "A GitHub project",
       "stack": [
         "TypeScript"
       ],
-      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
+      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/kestrel",
         "demo": null
@@ -110,11 +158,11 @@
         "lastUpdated": "2026-06-06T22:49:20Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886727+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923327+00:00"
     },
     {
       "id": 1261468486,
-      "num": "05",
+      "num": "07",
       "name": "litmus",
       "category": "Python",
       "description": "Dual-axis resume scanner: ATS compatibility + AI detection scoring",
@@ -124,7 +172,7 @@
         "Ats",
         "Fastapi"
       ],
-      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/litmus",
         "demo": null
@@ -145,11 +193,11 @@
         "lastUpdated": "2026-06-06T18:49:16Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886738+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923337+00:00"
     },
     {
       "id": 1261454357,
-      "num": "06",
+      "num": "08",
       "name": "SkyMetrics",
       "category": "Jupyter Notebook",
       "description": "Airline customer intelligence for British Airways \u2014 sentiment (baseline + transformer), aspect analysis, topic mining, booking-completion prediction, live flight & share-price enrichment, served via FastAPI + Streamlit.",
@@ -157,7 +205,7 @@
         "Jupyter Notebook",
         "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/SkyMetrics",
         "demo": null
@@ -170,42 +218,18 @@
         "lastUpdated": "2026-06-06T18:47:50Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886753+00:00"
-    },
-    {
-      "id": 1259815779,
-      "num": "07",
-      "name": "gauthambinoy20.github.io",
-      "category": "HTML",
-      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
-      "stack": [
-        "HTML"
-      ],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [],
-        "lastUpdated": "2026-06-06T09:14:20Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886762+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923350+00:00"
     },
     {
       "id": 1260688822,
-      "num": "08",
+      "num": "09",
       "name": "PolyCortex",
       "category": "Python",
       "description": "PolyCortex \u2014 the neural Polymarket prediction brain: Bayesian edge + TCN ensemble, isotonic calibration, HMM regime detection, fractional-Kelly sizing, paper trading, backtester and a Streamlit dashboard.",
       "stack": [
         "Python"
       ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/PolyCortex",
         "demo": null
@@ -218,18 +242,18 @@
         "lastUpdated": "2026-06-05T19:35:44Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886776+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923361+00:00"
     },
     {
       "id": 1260613491,
-      "num": "09",
+      "num": "10",
       "name": "meridian",
       "category": "TypeScript",
       "description": "A GitHub project",
       "stack": [
         "TypeScript"
       ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
+      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/meridian",
         "demo": null
@@ -242,11 +266,11 @@
         "lastUpdated": "2026-06-05T17:22:51Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886784+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923370+00:00"
     },
     {
       "id": 1260204905,
-      "num": "10",
+      "num": "11",
       "name": "quantum-ledger",
       "category": "JavaScript",
       "description": "Real-time stock & crypto portfolio tracker with AI market intelligence \u2014 FastAPI + React + Terraform.",
@@ -255,7 +279,7 @@
         "React",
         "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
+      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/quantum-ledger",
         "demo": null
@@ -268,11 +292,11 @@
         "lastUpdated": "2026-06-05T08:59:09Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886796+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923380+00:00"
     },
     {
       "id": 1259829551,
-      "num": "11",
+      "num": "12",
       "name": "gnosis",
       "category": "Python",
       "description": "AI agent automation platform \u2014 FastAPI + Next.js, 4-tier memory, self-learning, LLM gateway, Terraform AWS.",
@@ -281,7 +305,7 @@
         "Next.js",
         "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/gnosis",
         "demo": null
@@ -294,10 +318,10 @@
         "lastUpdated": "2026-06-05T07:50:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-07T10:15:14.886815+00:00"
+      "syncedAt": "2026-06-08T14:51:38.923391+00:00"
     }
   ],
-  "lastGitHubSync": "2026-06-07T10:15:14.886991+00:00",
+  "lastGitHubSync": "2026-06-08T14:51:38.923779+00:00",
   "gitHubUsername": "Gauthambinoy20",
-  "totalRepos": 11
+  "totalRepos": 12
 }
