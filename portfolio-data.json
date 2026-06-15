@@ -1,53 +1,54 @@
 {
   "projects": [
     {
-      "id": 1261586020,
+      "id": 1262760642,
       "num": "01",
-      "name": "kestrel",
-      "category": "TypeScript",
-      "description": "A GitHub project",
+      "name": "warzone",
+      "category": "JavaScript",
+      "description": "WARZONE: Last Stand \u2014 a neon Vice City browser FPS. Three.js, wave survival, bosses, shop progression. Installable PWA.",
       "stack": [
-        "TypeScript"
+        "JavaScript"
       ],
       "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
-        "github": "https://github.com/Gauthambinoy20/kestrel",
+        "github": "https://github.com/Gauthambinoy20/warzone",
         "demo": null
       },
       "stats": {
         "stars": 0,
         "forks": 0,
-        "language": "TypeScript",
+        "language": "JavaScript",
         "topics": [],
-        "lastUpdated": "2026-06-06T22:49:20Z"
+        "lastUpdated": "2026-06-08T09:50:07Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354654+00:00"
+      "syncedAt": "2026-06-15T18:10:02.339990+00:00"
     },
     {
-      "id": 1261454357,
+      "id": 1261628006,
       "num": "02",
-      "name": "SkyMetrics",
-      "category": "Jupyter Notebook",
-      "description": "Airline customer intelligence for British Airways \u2014 sentiment (baseline + transformer), aspect analysis, topic mining, booking-completion prediction, live flight & share-price enrichment, served via FastAPI + Streamlit.",
+      "name": "clarity-ai",
+      "category": "Python",
+      "description": "AI text detection, plagiarism and humanization platform \u2014 18-signal ensemble, FastAPI + React",
       "stack": [
-        "Jupyter Notebook",
+        "Python",
+        "React",
         "FastAPI"
       ],
       "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
-        "github": "https://github.com/Gauthambinoy20/SkyMetrics",
+        "github": "https://github.com/Gauthambinoy20/clarity-ai",
         "demo": null
       },
       "stats": {
         "stars": 0,
         "forks": 0,
-        "language": "Jupyter Notebook",
+        "language": "Python",
         "topics": [],
-        "lastUpdated": "2026-06-06T18:47:50Z"
+        "lastUpdated": "2026-06-07T13:29:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354689+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340030+00:00"
     },
     {
       "id": 1259815779,
@@ -68,14 +69,63 @@
         "forks": 0,
         "language": "HTML",
         "topics": [],
-        "lastUpdated": "2026-06-13T10:14:15Z"
+        "lastUpdated": "2026-06-14T10:54:08Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354698+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340039+00:00"
+    },
+    {
+      "id": 1261586020,
+      "num": "04",
+      "name": "kestrel",
+      "category": "TypeScript",
+      "description": "A GitHub project",
+      "stack": [
+        "TypeScript"
+      ],
+      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/kestrel",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "lastUpdated": "2026-06-06T22:49:20Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-06-15T18:10:02.340044+00:00"
+    },
+    {
+      "id": 1261454357,
+      "num": "05",
+      "name": "SkyMetrics",
+      "category": "Jupyter Notebook",
+      "description": "Airline customer intelligence for British Airways \u2014 sentiment (baseline + transformer), aspect analysis, topic mining, booking-completion prediction, live flight & share-price enrichment, served via FastAPI + Streamlit.",
+      "stack": [
+        "Jupyter Notebook",
+        "FastAPI"
+      ],
+      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/SkyMetrics",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "lastUpdated": "2026-06-06T18:47:50Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-06-15T18:10:02.340054+00:00"
     },
     {
       "id": 1261468486,
-      "num": "04",
+      "num": "06",
       "name": "litmus",
       "category": "Python",
       "description": "Dual-axis resume scanner: ATS compatibility + AI detection scoring",
@@ -85,7 +135,7 @@
         "Ats",
         "Fastapi"
       ],
-      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
+      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/litmus",
         "demo": null
@@ -106,18 +156,18 @@
         "lastUpdated": "2026-06-06T18:49:16Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354708+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340064+00:00"
     },
     {
       "id": 1260688822,
-      "num": "05",
+      "num": "07",
       "name": "PolyCortex",
       "category": "Python",
       "description": "PolyCortex \u2014 the neural Polymarket prediction brain: Bayesian edge + TCN ensemble, isotonic calibration, HMM regime detection, fractional-Kelly sizing, paper trading, backtester and a Streamlit dashboard.",
       "stack": [
         "Python"
       ],
-      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/PolyCortex",
         "demo": null
@@ -130,11 +180,11 @@
         "lastUpdated": "2026-06-05T19:35:44Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354717+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340075+00:00"
     },
     {
       "id": 1259761694,
-      "num": "06",
+      "num": "08",
       "name": "Glyph",
       "category": "Python",
       "description": "Glyph \u2014 ask questions about any codebase and get answers grounded in the real code, with file:line citations. RAG over a GitHub repo: tree-sitter chunking, local embeddings, hybrid retrieval.",
@@ -144,7 +194,7 @@
         "Code Search",
         "Embeddings"
       ],
-      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/Glyph",
         "demo": null
@@ -168,11 +218,11 @@
         "lastUpdated": "2026-06-07T15:46:27Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354727+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340084+00:00"
     },
     {
       "id": 1259829551,
-      "num": "07",
+      "num": "09",
       "name": "gnosis",
       "category": "Python",
       "description": "AI agent automation platform \u2014 FastAPI + Next.js, 4-tier memory, self-learning, LLM gateway, Terraform AWS.",
@@ -181,7 +231,7 @@
         "Next.js",
         "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/gnosis",
         "demo": null
@@ -194,42 +244,18 @@
         "lastUpdated": "2026-06-11T00:58:17Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354735+00:00"
-    },
-    {
-      "id": 1262760642,
-      "num": "08",
-      "name": "warzone",
-      "category": "JavaScript",
-      "description": "WARZONE: Last Stand \u2014 a neon Vice City browser FPS. Three.js, wave survival, bosses, shop progression. Installable PWA.",
-      "stack": [
-        "JavaScript"
-      ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/warzone",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "JavaScript",
-        "topics": [],
-        "lastUpdated": "2026-06-08T09:50:07Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354749+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340092+00:00"
     },
     {
       "id": 1261557358,
-      "num": "09",
+      "num": "10",
       "name": "Orion-OS",
       "category": "Shell",
       "description": "An AI-first, image-based Linux desktop \u2014 atomic, signed, local-first AI. Built on Fedora Atomic (Universal Blue) + KDE Plasma 6 via BlueBuild.",
       "stack": [
         "Shell"
       ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
+      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/Orion-OS",
         "demo": null
@@ -242,33 +268,7 @@
         "lastUpdated": "2026-06-07T00:01:00Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354756+00:00"
-    },
-    {
-      "id": 1261628006,
-      "num": "10",
-      "name": "clarity-ai",
-      "category": "Python",
-      "description": "AI text detection, plagiarism and humanization platform \u2014 18-signal ensemble, FastAPI + React",
-      "stack": [
-        "Python",
-        "React",
-        "FastAPI"
-      ],
-      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/clarity-ai",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "Python",
-        "topics": [],
-        "lastUpdated": "2026-06-07T13:29:45Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354766+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340103+00:00"
     },
     {
       "id": 1260613491,
@@ -292,7 +292,7 @@
         "lastUpdated": "2026-06-05T17:22:51Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354770+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340108+00:00"
     },
     {
       "id": 1260204905,
@@ -318,10 +318,10 @@
         "lastUpdated": "2026-06-05T08:59:09Z"
       },
       "synced": true,
-      "syncedAt": "2026-06-14T10:54:04.354779+00:00"
+      "syncedAt": "2026-06-15T18:10:02.340115+00:00"
     }
   ],
-  "lastGitHubSync": "2026-06-14T10:54:04.355092+00:00",
+  "lastGitHubSync": "2026-06-15T18:10:02.340443+00:00",
   "gitHubUsername": "Gauthambinoy20",
   "totalRepos": 12
 }
