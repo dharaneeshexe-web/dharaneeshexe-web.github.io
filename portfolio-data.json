@@ -1,8 +1,32 @@
 {
   "projects": [
     {
-      "id": 1259829551,
+      "id": 1259815779,
       "num": "01",
+      "name": "gauthambinoy20.github.io",
+      "category": "HTML",
+      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
+      "stack": [
+        "HTML"
+      ],
+      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "lastUpdated": "2026-07-02T10:19:21Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-03T10:15:34.821666+00:00"
+    },
+    {
+      "id": 1259829551,
+      "num": "02",
       "name": "gnosis",
       "category": "Python",
       "description": "AI agent automation platform \u2014 FastAPI + Next.js, 4-tier memory, self-learning, LLM gateway, Terraform AWS.",
@@ -11,7 +35,7 @@
         "Next.js",
         "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/gnosis",
         "demo": null
@@ -24,31 +48,7 @@
         "lastUpdated": "2026-07-02T00:54:43Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005217+00:00"
-    },
-    {
-      "id": 1259815779,
-      "num": "02",
-      "name": "gauthambinoy20.github.io",
-      "category": "HTML",
-      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
-      "stack": [
-        "HTML"
-      ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [],
-        "lastUpdated": "2026-07-01T11:41:05Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005239+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821701+00:00"
     },
     {
       "id": 1261557358,
@@ -72,7 +72,7 @@
         "lastUpdated": "2026-06-07T00:01:00Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005253+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821713+00:00"
     },
     {
       "id": 1262760642,
@@ -96,7 +96,7 @@
         "lastUpdated": "2026-06-08T09:50:07Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005261+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821722+00:00"
     },
     {
       "id": 1261628006,
@@ -122,7 +122,7 @@
         "lastUpdated": "2026-06-07T13:29:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005269+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821732+00:00"
     },
     {
       "id": 1259761694,
@@ -160,7 +160,7 @@
         "lastUpdated": "2026-06-27T23:34:01Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005282+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821750+00:00"
     },
     {
       "id": 1260613491,
@@ -184,7 +184,7 @@
         "lastUpdated": "2026-06-05T17:22:51Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005287+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821757+00:00"
     },
     {
       "id": 1261586020,
@@ -208,7 +208,7 @@
         "lastUpdated": "2026-06-06T22:49:20Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005292+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821762+00:00"
     },
     {
       "id": 1260688822,
@@ -232,7 +232,7 @@
         "lastUpdated": "2026-06-05T19:35:44Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005301+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821771+00:00"
     },
     {
       "id": 1261454357,
@@ -257,7 +257,7 @@
         "lastUpdated": "2026-06-06T18:47:50Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005312+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821784+00:00"
     },
     {
       "id": 1261468486,
@@ -292,7 +292,7 @@
         "lastUpdated": "2026-06-06T18:49:16Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005321+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821793+00:00"
     },
     {
       "id": 1260204905,
@@ -318,10 +318,10 @@
         "lastUpdated": "2026-06-05T08:59:09Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-02T10:19:17.005328+00:00"
+      "syncedAt": "2026-07-03T10:15:34.821801+00:00"
     }
   ],
-  "lastGitHubSync": "2026-07-02T10:19:17.005644+00:00",
+  "lastGitHubSync": "2026-07-03T10:15:34.822146+00:00",
   "gitHubUsername": "Gauthambinoy20",
   "totalRepos": 12
 }
