@@ -1,15 +1,63 @@
 {
   "projects": [
     {
-      "id": 1260613491,
+      "id": 1261586020,
       "num": "01",
-      "name": "meridian",
+      "name": "kestrel",
       "category": "TypeScript",
       "description": "A GitHub project",
       "stack": [
         "TypeScript"
       ],
       "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/kestrel",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "lastUpdated": "2026-06-06T22:49:20Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-05T09:46:43.575885+00:00"
+    },
+    {
+      "id": 1259815779,
+      "num": "02",
+      "name": "gauthambinoy20.github.io",
+      "category": "HTML",
+      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
+      "stack": [
+        "HTML"
+      ],
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "lastUpdated": "2026-07-04T09:09:32Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-05T09:46:43.575910+00:00"
+    },
+    {
+      "id": 1260613491,
+      "num": "03",
+      "name": "meridian",
+      "category": "TypeScript",
+      "description": "A GitHub project",
+      "stack": [
+        "TypeScript"
+      ],
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/meridian",
         "demo": null
@@ -22,11 +70,11 @@
         "lastUpdated": "2026-06-05T17:22:51Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988836+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575918+00:00"
     },
     {
       "id": 1259761694,
-      "num": "02",
+      "num": "04",
       "name": "Glyph",
       "category": "Python",
       "description": "Glyph \u2014 ask questions about any codebase and get answers grounded in the real code, with file:line citations. RAG over a GitHub repo: tree-sitter chunking, local embeddings, hybrid retrieval.",
@@ -36,7 +84,7 @@
         "Code Search",
         "Embeddings"
       ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/Glyph",
         "demo": null
@@ -60,35 +108,11 @@
         "lastUpdated": "2026-06-27T23:34:01Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988871+00:00"
-    },
-    {
-      "id": 1259815779,
-      "num": "03",
-      "name": "gauthambinoy20.github.io",
-      "category": "HTML",
-      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
-      "stack": [
-        "HTML"
-      ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [],
-        "lastUpdated": "2026-07-03T10:15:39Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988877+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575932+00:00"
     },
     {
       "id": 1259829551,
-      "num": "04",
+      "num": "05",
       "name": "gnosis",
       "category": "Python",
       "description": "AI agent automation platform \u2014 FastAPI + Next.js, 4-tier memory, self-learning, LLM gateway, Terraform AWS.",
@@ -97,7 +121,7 @@
         "Next.js",
         "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
+      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/gnosis",
         "demo": null
@@ -110,18 +134,18 @@
         "lastUpdated": "2026-07-02T00:54:43Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988889+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575941+00:00"
     },
     {
       "id": 1261557358,
-      "num": "05",
+      "num": "06",
       "name": "Orion-OS",
       "category": "Shell",
       "description": "An AI-first, image-based Linux desktop \u2014 atomic, signed, local-first AI. Built on Fedora Atomic (Universal Blue) + KDE Plasma 6 via BlueBuild.",
       "stack": [
         "Shell"
       ],
-      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/Orion-OS",
         "demo": null
@@ -134,18 +158,18 @@
         "lastUpdated": "2026-06-07T00:01:00Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988894+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575949+00:00"
     },
     {
       "id": 1262760642,
-      "num": "06",
+      "num": "07",
       "name": "warzone",
       "category": "JavaScript",
       "description": "WARZONE: Last Stand \u2014 a neon Vice City browser FPS. Three.js, wave survival, bosses, shop progression. Installable PWA.",
       "stack": [
         "JavaScript"
       ],
-      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
+      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/warzone",
         "demo": null
@@ -158,11 +182,11 @@
         "lastUpdated": "2026-06-08T09:50:07Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988898+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575955+00:00"
     },
     {
       "id": 1261628006,
-      "num": "07",
+      "num": "08",
       "name": "clarity-ai",
       "category": "Python",
       "description": "AI text detection, plagiarism and humanization platform \u2014 18-signal ensemble, FastAPI + React",
@@ -171,7 +195,7 @@
         "React",
         "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/clarity-ai",
         "demo": null
@@ -184,31 +208,7 @@
         "lastUpdated": "2026-06-07T13:29:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988903+00:00"
-    },
-    {
-      "id": 1261586020,
-      "num": "08",
-      "name": "kestrel",
-      "category": "TypeScript",
-      "description": "A GitHub project",
-      "stack": [
-        "TypeScript"
-      ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/kestrel",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [],
-        "lastUpdated": "2026-06-06T22:49:20Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988906+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575966+00:00"
     },
     {
       "id": 1260688822,
@@ -232,7 +232,7 @@
         "lastUpdated": "2026-06-05T19:35:44Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988911+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575974+00:00"
     },
     {
       "id": 1261454357,
@@ -257,7 +257,7 @@
         "lastUpdated": "2026-06-06T18:47:50Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988919+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575984+00:00"
     },
     {
       "id": 1261468486,
@@ -292,7 +292,7 @@
         "lastUpdated": "2026-06-06T18:49:16Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988924+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575991+00:00"
     },
     {
       "id": 1260204905,
@@ -318,10 +318,10 @@
         "lastUpdated": "2026-06-05T08:59:09Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-04T09:09:27.988928+00:00"
+      "syncedAt": "2026-07-05T09:46:43.575998+00:00"
     }
   ],
-  "lastGitHubSync": "2026-07-04T09:09:27.989186+00:00",
+  "lastGitHubSync": "2026-07-05T09:46:43.576349+00:00",
   "gitHubUsername": "Gauthambinoy20",
   "totalRepos": 12
 }
