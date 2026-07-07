@@ -1,15 +1,39 @@
 {
   "projects": [
     {
-      "id": 1262760642,
+      "id": 1259815779,
       "num": "01",
+      "name": "gauthambinoy20.github.io",
+      "category": "HTML",
+      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
+      "stack": [
+        "HTML"
+      ],
+      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "links": {
+        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "lastUpdated": "2026-07-06T03:28:58Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-07T03:19:15.770945+00:00"
+    },
+    {
+      "id": 1262760642,
+      "num": "02",
       "name": "warzone",
       "category": "JavaScript",
       "description": "WARZONE: Last Stand \u2014 a neon Vice City browser FPS. Three.js, wave survival, bosses, shop progression. Installable PWA.",
       "stack": [
         "JavaScript"
       ],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/warzone",
         "demo": null
@@ -22,11 +46,11 @@
         "lastUpdated": "2026-06-08T09:50:07Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064615+00:00"
+      "syncedAt": "2026-07-07T03:19:15.770987+00:00"
     },
     {
       "id": 1261628006,
-      "num": "02",
+      "num": "03",
       "name": "clarity-ai",
       "category": "Python",
       "description": "AI text detection, plagiarism and humanization platform \u2014 18-signal ensemble, FastAPI + React",
@@ -35,7 +59,7 @@
         "React",
         "FastAPI"
       ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
       "links": {
         "github": "https://github.com/Gauthambinoy20/clarity-ai",
         "demo": null
@@ -48,31 +72,7 @@
         "lastUpdated": "2026-06-07T13:29:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064655+00:00"
-    },
-    {
-      "id": 1259815779,
-      "num": "03",
-      "name": "gauthambinoy20.github.io",
-      "category": "HTML",
-      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
-      "stack": [
-        "HTML"
-      ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [],
-        "lastUpdated": "2026-07-05T09:46:48Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064670+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771002+00:00"
     },
     {
       "id": 1261586020,
@@ -96,7 +96,7 @@
         "lastUpdated": "2026-06-06T22:49:20Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064679+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771013+00:00"
     },
     {
       "id": 1260613491,
@@ -120,7 +120,7 @@
         "lastUpdated": "2026-06-05T17:22:51Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064695+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771020+00:00"
     },
     {
       "id": 1259761694,
@@ -158,7 +158,7 @@
         "lastUpdated": "2026-06-27T23:34:01Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064715+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771035+00:00"
     },
     {
       "id": 1259829551,
@@ -184,7 +184,7 @@
         "lastUpdated": "2026-07-02T00:54:43Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064727+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771045+00:00"
     },
     {
       "id": 1261557358,
@@ -208,7 +208,7 @@
         "lastUpdated": "2026-06-07T00:01:00Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064740+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771054+00:00"
     },
     {
       "id": 1260688822,
@@ -232,7 +232,7 @@
         "lastUpdated": "2026-06-05T19:35:44Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064758+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771064+00:00"
     },
     {
       "id": 1261454357,
@@ -257,7 +257,7 @@
         "lastUpdated": "2026-06-06T18:47:50Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064776+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771080+00:00"
     },
     {
       "id": 1261468486,
@@ -292,7 +292,7 @@
         "lastUpdated": "2026-06-06T18:49:16Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064788+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771089+00:00"
     },
     {
       "id": 1260204905,
@@ -318,10 +318,10 @@
         "lastUpdated": "2026-06-05T08:59:09Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-06T03:28:54.064801+00:00"
+      "syncedAt": "2026-07-07T03:19:15.771098+00:00"
     }
   ],
-  "lastGitHubSync": "2026-07-06T03:28:54.065310+00:00",
+  "lastGitHubSync": "2026-07-07T03:19:15.771524+00:00",
   "gitHubUsername": "Gauthambinoy20",
   "totalRepos": 12
 }
