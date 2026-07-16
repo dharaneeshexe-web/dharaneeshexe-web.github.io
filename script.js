@@ -79,7 +79,7 @@ let cursorIdleFrames = 0;
 let cursorRunning = false;
 
 const trail = [];
-const TRAIL_LENGTH = 45;
+const TRAIL_LENGTH = 25;
 
 function resizeTrail() {
     if (!trailCanvas) return;
@@ -106,12 +106,12 @@ if (!isTouchDevice && !prefersReducedMotion) {
     });
 
     document.addEventListener('click', (e) => {
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < 5; i++) {
             const burst = document.createElement('div');
             burst.className = 'click-burst';
             burst.style.left = e.clientX + 'px';
             burst.style.top = e.clientY + 'px';
-            const angle = (Math.PI * 2 / 8) * i;
+            const angle = (Math.PI * 2 / 5) * i;
             const dist = 20 + Math.random() * 30;
             burst.style.setProperty('--bx', Math.cos(angle) * dist + 'px');
             burst.style.setProperty('--by', Math.sin(angle) * dist + 'px');
@@ -182,7 +182,7 @@ if (!isTouchDevice && !prefersReducedMotion) {
                     trailCtx.stroke();
                 }
 
-                for (let i = 0; i < trail.length; i += 3) {
+                for (let i = 0; i < trail.length; i += 4) {
                     const p = trail[i];
                     const t = i / trail.length;
                     const rgb = theme === 'light' ? '68,0,255' : '200,255,0';
@@ -193,20 +193,15 @@ if (!isTouchDevice && !prefersReducedMotion) {
                     trailCtx.arc(p.x, p.y, size, 0, Math.PI * 2);
                     trailCtx.fillStyle = `rgba(${rgb},${alpha})`;
                     trailCtx.fill();
-
-                    trailCtx.beginPath();
-                    trailCtx.arc(p.x, p.y, size * 3, 0, Math.PI * 2);
-                    trailCtx.fillStyle = `rgba(${rgb},${alpha * 0.15})`;
-                    trailCtx.fill();
                 }
             }
         }
 
-        // Stop loop after 120 idle frames (~2s) to save CPU
+        // Stop loop after 60 idle frames (~1s) to save CPU
         if (velocity < 0.1) cursorIdleFrames++;
         else cursorIdleFrames = 0;
 
-        if (cursorIdleFrames > 120) {
+        if (cursorIdleFrames > 60) {
             cursorRunning = false;
             return;
         }
@@ -404,18 +399,36 @@ if (!isTouchDevice) document.querySelectorAll('.project-card-visual').forEach(vi
 });
 
 /* ===================================================
-   VIDEO BG — Cycle aurora clips
+   VIDEO BG — Cycle aurora clips (lazy-loaded)
    =================================================== */
 const bgVideo2 = document.getElementById('bg-video');
 if (bgVideo2) {
     if (prefersReducedMotion) {
         bgVideo2.pause();
+        bgVideo2.removeAttribute('autoplay');
     } else if (isTouchDevice) {
         /* On mobile: just loop the first clip, don't cycle through all 5 to save bandwidth */
         bgVideo2.loop = true;
+        bgVideo2.preload = 'metadata';
     } else {
+        /* Desktop: defer loading of remaining videos until after first paint */
         const videos = ['assets/aurora1.mp4', 'assets/aurora_dawn.mp4', 'assets/aurora3.mp4', 'assets/aurora_timelapse.mp4', 'assets/aurora2.mp4'];
         let vidIdx = 0;
+        let videosPreloaded = false;
+
+        /* Preload remaining videos after 3s delay to avoid blocking initial render */
+        setTimeout(() => {
+            if (!videosPreloaded) {
+                videos.slice(1).forEach(src => {
+                    const link = document.createElement('link');
+                    link.rel = 'prefetch';
+                    link.href = src;
+                    document.head.appendChild(link);
+                });
+                videosPreloaded = true;
+            }
+        }, 3000);
+
         bgVideo2.addEventListener('ended', () => {
             vidIdx = (vidIdx + 1) % videos.length;
             bgVideo2.style.opacity = '0';
@@ -433,7 +446,7 @@ if (bgVideo2) {
 /* ===================================================
    TYPEWRITER — Hero role cycling
    =================================================== */
-const typeRoles = ['Software Engineer', 'AI Engineer', 'Full Stack Developer', 'Cloud Architect'];
+const typeRoles = ['AI/ML Engineer', 'Multi-Agent Systems', 'RAG Pipelines', 'LLM Orchestrator'];
 let typeRoleIdx = 0, typeCharIdx = 0, typeDeleting = false;
 const typeEl = document.getElementById('hero-typewriter');
 
@@ -467,7 +480,7 @@ setTimeout(typeLoop, 2800);
     const el = document.getElementById('github-event');
     if (!el) return;
     try {
-        const res = await fetch('https://api.github.com/users/gauthambinoy/events?per_page=15');
+        const res = await fetch('https://api.github.com/users/dharaneeshexe-web/events?per_page=15');
         if (!res.ok) throw new Error();
         const events = await res.json();
         const push = events.find(e => e.type === 'PushEvent');
@@ -549,13 +562,13 @@ const cardDrawFns = [];
             const fB = fA * 1.77;
             const amp = 9 + s * 4.5;
             const ph = s * 1.05;
-            const lines = 52;
+            const lines = 30;
 
             for (let i = 0; i < lines; i++) {
                 const t = i / lines;
                 const y0 = t * h;
                 ctx.beginPath();
-                for (let x = 0; x <= w; x += 3) {
+                for (let x = 0; x <= w; x += 4) {
                     const y = y0 + Math.sin(x * fA + i * ph) * amp + Math.sin(x * fB + i * 0.38) * (amp * 0.42);
                     x === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
                 }
@@ -564,7 +577,7 @@ const cardDrawFns = [];
                 ctx.stroke();
             }
 
-            for (let i = 0; i < 22; i++) {
+            for (let i = 0; i < 12; i++) {
                 const px = (((s * 1231 + i * 7919) % 997) / 997) * w;
                 const py = (((s * 3571 + i * 2333) % 997) / 997) * h;
                 const pr = 0.5 + ((s * 523 + i * 191) % 8) / 6;
@@ -604,10 +617,10 @@ window.addEventListener('resize', () => {
 
     const cx = 130, cy = 130, r = 88, labelR = 112;
     const skills = [
-        { label: 'AI / ML',    pct: '90%', val: 0.90, angle: -90 },
-        { label: 'Code',       pct: '88%', val: 0.88, angle:   0 },
-        { label: 'Stack',      pct: '85%', val: 0.85, angle:  90 },
-        { label: 'Cloud',      pct: '82%', val: 0.82, angle: 180 },
+        { label: 'AI / ML',    pct: '88%', val: 0.88, angle: -90 },
+        { label: 'Agents',     pct: '85%', val: 0.85, angle:   0 },
+        { label: 'Infra',      pct: '80%', val: 0.80, angle:  90 },
+        { label: 'RAG',        pct: '82%', val: 0.82, angle: 180 },
     ];
 
     function pt(angle, radius) {
@@ -645,7 +658,7 @@ window.addEventListener('resize', () => {
     }).join('');
 
     container.innerHTML = `
-      <svg viewBox="0 0 260 260" width="260" height="260" class="radar-svg" role="img" aria-label="Skills radar chart showing AI/ML 90%, Code 88%, Stack 85%, Cloud 82%">
+      <svg viewBox="0 0 260 260" width="260" height="260" class="radar-svg" role="img" aria-label="Skills radar chart showing AI/ML 88%, Agents 85%, Infra 80%, RAG 82%">
         <defs>
           <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/>
             <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>

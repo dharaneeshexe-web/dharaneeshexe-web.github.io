@@ -24,7 +24,7 @@ jobs:
 
       - name: Fetch repos and update portfolio-data.json
         env:
-          GITHUB_USERNAME: ${{ vars.PORTFOLIO_GH_USERNAME || 'gauthambinoy' }}
+          GITHUB_USERNAME: ${{ vars.PORTFOLIO_GH_USERNAME || 'dharaneeshexe-web' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 - <<'EOF'
@@ -120,8 +120,8 @@ jobs:
 
       - name: Commit updated portfolio data
         run: |
-          git config user.name "Gautham Binoy"
-          git config user.email "gautham.binoy005@gmail.com"
+          git config user.name "Dharaneesh N"
+          git config user.email "dharaneeshexe@gmail.com"
           git add portfolio-data.json
           git diff --staged --quiet && echo "No changes" || git commit -m "chore: refresh portfolio data from GitHub API [skip ci]"
           git push

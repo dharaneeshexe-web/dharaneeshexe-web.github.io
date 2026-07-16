@@ -1,19 +1,22 @@
 {
   "projects": [
     {
-      "id": 1259829551,
+      "id": 1,
       "num": "01",
-      "name": "gnosis",
-      "category": "Python",
-      "description": "AI agent automation platform \u2014 FastAPI + Next.js, 4-tier memory, self-learning, LLM gateway, Terraform AWS.",
+      "name": "Company Brain",
+      "category": "Multi-Agent AI",
+      "description": "Production multi-agent orchestration platform for reliable enterprise question answering — 5-agent LangGraph DAG deployed on Kubernetes.",
       "stack": [
-        "Python",
-        "Next.js",
-        "FastAPI"
+        "LangGraph",
+        "FastAPI",
+        "K8s",
+        "Qdrant",
+        "OpenTelemetry",
+        "Celery"
       ],
       "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
-        "github": "https://github.com/Gauthambinoy20/gnosis",
+        "github": "https://github.com/dharaneeshexe-web/MULTIAGENT-LANGRAPH",
         "demo": null
       },
       "stats": {
@@ -21,97 +24,27 @@
         "forks": 0,
         "language": "Python",
         "topics": [],
-        "lastUpdated": "2026-07-09T00:54:54Z"
+        "lastUpdated": "2026-07-16T00:00:00Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.166956+00:00"
+      "syncedAt": "2026-07-16T00:00:00.000000+00:00"
     },
     {
-      "id": 1259815779,
+      "id": 2,
       "num": "02",
-      "name": "gauthambinoy20.github.io",
-      "category": "HTML",
-      "description": "Hand-coded personal portfolio. No frameworks, no build step.",
+      "name": "MedGraph RAG",
+      "category": "RAG / Medical AI",
+      "description": "FAISS RAG, GraphRAG, and Hybrid QA pipelines over PubMed medical knowledge graph — GraphRAG achieved 64.2% fewer tokens than Basic RAG.",
       "stack": [
-        "HTML"
+        "TigerGraph",
+        "FAISS",
+        "Groq LLaMA",
+        "BERTScore",
+        "GraphRAG"
       ],
       "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
-        "github": "https://github.com/Gauthambinoy20/gauthambinoy20.github.io",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [],
-        "lastUpdated": "2026-07-15T02:24:23Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.166980+00:00"
-    },
-    {
-      "id": 1261557358,
-      "num": "03",
-      "name": "Orion-OS",
-      "category": "Shell",
-      "description": "An AI-first, image-based Linux desktop \u2014 atomic, signed, local-first AI. Built on Fedora Atomic (Universal Blue) + KDE Plasma 6 via BlueBuild.",
-      "stack": [
-        "Shell"
-      ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/Orion-OS",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "Shell",
-        "topics": [],
-        "lastUpdated": "2026-06-07T00:01:00Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.166989+00:00"
-    },
-    {
-      "id": 1262760642,
-      "num": "04",
-      "name": "warzone",
-      "category": "JavaScript",
-      "description": "WARZONE: Last Stand \u2014 a neon Vice City browser FPS. Three.js, wave survival, bosses, shop progression. Installable PWA.",
-      "stack": [
-        "JavaScript"
-      ],
-      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/warzone",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "JavaScript",
-        "topics": [],
-        "lastUpdated": "2026-06-08T09:50:07Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.166996+00:00"
-    },
-    {
-      "id": 1261628006,
-      "num": "05",
-      "name": "clarity-ai",
-      "category": "Python",
-      "description": "AI text detection, plagiarism and humanization platform \u2014 18-signal ensemble, FastAPI + React",
-      "stack": [
-        "Python",
-        "React",
-        "FastAPI"
-      ],
-      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/clarity-ai",
+        "github": "https://github.com/dharaneeshexe-web/MEDGRAPH-TIGERGRAPH.git",
         "demo": null
       },
       "stats": {
@@ -119,209 +52,13 @@
         "forks": 0,
         "language": "Python",
         "topics": [],
-        "lastUpdated": "2026-06-07T13:29:45Z"
+        "lastUpdated": "2026-07-16T00:00:00Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.167006+00:00"
-    },
-    {
-      "id": 1260613491,
-      "num": "06",
-      "name": "meridian",
-      "category": "TypeScript",
-      "description": "A GitHub project",
-      "stack": [
-        "TypeScript"
-      ],
-      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/meridian",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [],
-        "lastUpdated": "2026-06-05T17:22:51Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.167011+00:00"
-    },
-    {
-      "id": 1259761694,
-      "num": "07",
-      "name": "Glyph",
-      "category": "Python",
-      "description": "Glyph \u2014 ask questions about any codebase and get answers grounded in the real code, with file:line citations. RAG over a GitHub repo: tree-sitter chunking, local embeddings, hybrid retrieval.",
-      "stack": [
-        "Python",
-        "Chromadb",
-        "Code Search",
-        "Embeddings"
-      ],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/Glyph",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "Python",
-        "topics": [
-          "chromadb",
-          "code-search",
-          "embeddings",
-          "fastapi",
-          "llm",
-          "openrouter",
-          "python",
-          "rag",
-          "react",
-          "tree-sitter"
-        ],
-        "lastUpdated": "2026-06-27T23:34:01Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.167022+00:00"
-    },
-    {
-      "id": 1261586020,
-      "num": "08",
-      "name": "kestrel",
-      "category": "TypeScript",
-      "description": "A GitHub project",
-      "stack": [
-        "TypeScript"
-      ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/kestrel",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "topics": [],
-        "lastUpdated": "2026-06-06T22:49:20Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.167026+00:00"
-    },
-    {
-      "id": 1260688822,
-      "num": "09",
-      "name": "PolyCortex",
-      "category": "Python",
-      "description": "PolyCortex \u2014 the neural Polymarket prediction brain: Bayesian edge + TCN ensemble, isotonic calibration, HMM regime detection, fractional-Kelly sizing, paper trading, backtester and a Streamlit dashboard.",
-      "stack": [
-        "Python"
-      ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/PolyCortex",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "Python",
-        "topics": [],
-        "lastUpdated": "2026-06-05T19:35:44Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.167035+00:00"
-    },
-    {
-      "id": 1261454357,
-      "num": "10",
-      "name": "SkyMetrics",
-      "category": "Jupyter Notebook",
-      "description": "Airline customer intelligence for British Airways \u2014 sentiment (baseline + transformer), aspect analysis, topic mining, booking-completion prediction, live flight & share-price enrichment, served via FastAPI + Streamlit.",
-      "stack": [
-        "Jupyter Notebook",
-        "FastAPI"
-      ],
-      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/SkyMetrics",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "Jupyter Notebook",
-        "topics": [],
-        "lastUpdated": "2026-06-06T18:47:50Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.167046+00:00"
-    },
-    {
-      "id": 1261468486,
-      "num": "11",
-      "name": "litmus",
-      "category": "Python",
-      "description": "Dual-axis resume scanner: ATS compatibility + AI detection scoring",
-      "stack": [
-        "Python",
-        "Ai Detection",
-        "Ats",
-        "Fastapi"
-      ],
-      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/litmus",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "Python",
-        "topics": [
-          "ai-detection",
-          "ats",
-          "fastapi",
-          "python",
-          "react",
-          "resume",
-          "typescript"
-        ],
-        "lastUpdated": "2026-06-06T18:49:16Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.167052+00:00"
-    },
-    {
-      "id": 1260204905,
-      "num": "12",
-      "name": "quantum-ledger",
-      "category": "JavaScript",
-      "description": "Real-time stock & crypto portfolio tracker with AI market intelligence \u2014 FastAPI + React + Terraform.",
-      "stack": [
-        "JavaScript",
-        "React",
-        "FastAPI"
-      ],
-      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
-      "links": {
-        "github": "https://github.com/Gauthambinoy20/quantum-ledger",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "JavaScript",
-        "topics": [],
-        "lastUpdated": "2026-06-05T08:59:09Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-16T02:32:02.167059+00:00"
+      "syncedAt": "2026-07-16T00:00:00.000000+00:00"
     }
   ],
-  "lastGitHubSync": "2026-07-16T02:32:02.167381+00:00",
-  "gitHubUsername": "Gauthambinoy20",
-  "totalRepos": 12
+  "lastGitHubSync": "2026-07-16T00:00:00.000000+00:00",
+  "gitHubUsername": "dharaneeshexe-web",
+  "totalRepos": 2
 }

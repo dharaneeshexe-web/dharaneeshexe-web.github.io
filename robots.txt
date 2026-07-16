@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gauthambinoy20.github.io/sitemap.xml
+Sitemap: https://dharaneeshexe-web.github.io/sitemap.xml
