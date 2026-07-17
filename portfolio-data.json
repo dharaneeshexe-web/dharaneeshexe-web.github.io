@@ -1,50 +1,65 @@
 {
   "projects": [
     {
-      "id": 1,
+      "id": 1255984438,
       "num": "01",
-      "name": "Company Brain",
-      "category": "Multi-Agent AI",
-      "description": "Production multi-agent orchestration platform for reliable enterprise question answering — 5-agent LangGraph DAG deployed on Kubernetes.",
-      "stack": [
-        "LangGraph",
-        "FastAPI",
-        "K8s",
-        "Qdrant",
-        "OpenTelemetry",
-        "Celery"
-      ],
+      "name": "dharaneeshexe-web",
+      "category": "Open Source",
+      "description": "GitHub Profile README",
+      "stack": [],
       "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
-        "github": "https://github.com/dharaneeshexe-web/MULTIAGENT-LANGRAPH",
+        "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web",
         "demo": null
       },
       "stats": {
         "stars": 0,
         "forks": 0,
-        "language": "Python",
+        "language": null,
         "topics": [],
-        "lastUpdated": "2026-07-16T00:00:00Z"
+        "lastUpdated": "2026-06-01T11:37:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-16T00:00:00.000000+00:00"
+      "syncedAt": "2026-07-17T02:04:38.341664+00:00"
     },
     {
-      "id": 2,
+      "id": 1302580287,
       "num": "02",
-      "name": "MedGraph RAG",
-      "category": "RAG / Medical AI",
-      "description": "FAISS RAG, GraphRAG, and Hybrid QA pipelines over PubMed medical knowledge graph — GraphRAG achieved 64.2% fewer tokens than Basic RAG.",
+      "name": "dharaneeshexe-web.github.io",
+      "category": "HTML",
+      "description": "A GitHub project",
       "stack": [
-        "TigerGraph",
-        "FAISS",
-        "Groq LLaMA",
-        "BERTScore",
-        "GraphRAG"
+        "HTML"
       ],
       "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
-        "github": "https://github.com/dharaneeshexe-web/MEDGRAPH-TIGERGRAPH.git",
+        "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web.github.io",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "lastUpdated": "2026-07-16T10:14:44Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-17T02:04:38.341693+00:00"
+    },
+    {
+      "id": 1253078290,
+      "num": "03",
+      "name": "multiagent-orchestrator",
+      "category": "Python",
+      "description": "Built a distributed multi-agent AI orchestration platform using LangGraph, FastAPI, and Groq LLMs. Implemented RAG with Qdrant, Celery workers, PostgreSQL, Prefect scheduling, OpenTelemetry tracing, Prometheus/Grafana monitoring, Docker/Kubernetes deployment, and GitHub Actions CI/CD with automated testing and rollback.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
+      "links": {
+        "github": "https://github.com/dharaneeshexe-web/multiagent-orchestrator",
         "demo": null
       },
       "stats": {
@@ -52,13 +67,83 @@
         "forks": 0,
         "language": "Python",
         "topics": [],
-        "lastUpdated": "2026-07-16T00:00:00Z"
+        "lastUpdated": "2026-07-05T08:52:03Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-16T00:00:00.000000+00:00"
+      "syncedAt": "2026-07-17T02:04:38.341705+00:00"
+    },
+    {
+      "id": 1255950020,
+      "num": "04",
+      "name": "dharaneeshexe-web-",
+      "category": "Open Source",
+      "description": "A GitHub project",
+      "stack": [],
+      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
+      "links": {
+        "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web-",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "lastUpdated": "2026-06-01T10:22:33Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-17T02:04:38.341710+00:00"
+    },
+    {
+      "id": 1239379317,
+      "num": "05",
+      "name": "MEDGRAPH-TIGERGRAPH",
+      "category": "HTML",
+      "description": "A GitHub project",
+      "stack": [
+        "HTML"
+      ],
+      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "links": {
+        "github": "https://github.com/dharaneeshexe-web/MEDGRAPH-TIGERGRAPH",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "lastUpdated": "2026-05-15T09:14:13Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-17T02:04:38.341715+00:00"
+    },
+    {
+      "id": 1206844648,
+      "num": "06",
+      "name": "ecom-env",
+      "category": "Python",
+      "description": "A GitHub project",
+      "stack": [
+        "Python"
+      ],
+      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
+      "links": {
+        "github": "https://github.com/dharaneeshexe-web/ecom-env",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "lastUpdated": "2026-04-12T08:25:22Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-17T02:04:38.341719+00:00"
     }
   ],
-  "lastGitHubSync": "2026-07-16T00:00:00.000000+00:00",
+  "lastGitHubSync": "2026-07-17T02:04:38.341875+00:00",
   "gitHubUsername": "dharaneeshexe-web",
-  "totalRepos": 2
+  "totalRepos": 6
 }
