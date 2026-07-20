@@ -1,13 +1,37 @@
 {
   "projects": [
     {
-      "id": 1255984438,
+      "id": 1302580287,
       "num": "01",
+      "name": "dharaneeshexe-web.github.io",
+      "category": "HTML",
+      "description": "A GitHub project",
+      "stack": [
+        "HTML"
+      ],
+      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "links": {
+        "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web.github.io",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "lastUpdated": "2026-07-19T02:04:45Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-07-20T03:23:05.136244+00:00"
+    },
+    {
+      "id": 1255984438,
+      "num": "02",
       "name": "dharaneeshexe-web",
       "category": "Open Source",
       "description": "GitHub Profile README",
       "stack": [],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
       "links": {
         "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web",
         "demo": null
@@ -20,31 +44,7 @@
         "lastUpdated": "2026-06-01T11:37:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-19T02:04:41.632151+00:00"
-    },
-    {
-      "id": 1302580287,
-      "num": "02",
-      "name": "dharaneeshexe-web.github.io",
-      "category": "HTML",
-      "description": "A GitHub project",
-      "stack": [
-        "HTML"
-      ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
-      "links": {
-        "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web.github.io",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [],
-        "lastUpdated": "2026-07-18T01:53:30Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-07-19T02:04:41.632178+00:00"
+      "syncedAt": "2026-07-20T03:23:05.136280+00:00"
     },
     {
       "id": 1253078290,
@@ -70,7 +70,7 @@
         "lastUpdated": "2026-07-05T08:52:03Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-19T02:04:41.632189+00:00"
+      "syncedAt": "2026-07-20T03:23:05.136294+00:00"
     },
     {
       "id": 1255950020,
@@ -92,7 +92,7 @@
         "lastUpdated": "2026-06-01T10:22:33Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-19T02:04:41.632195+00:00"
+      "syncedAt": "2026-07-20T03:23:05.136300+00:00"
     },
     {
       "id": 1239379317,
@@ -116,7 +116,7 @@
         "lastUpdated": "2026-05-15T09:14:13Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-19T02:04:41.632200+00:00"
+      "syncedAt": "2026-07-20T03:23:05.136306+00:00"
     },
     {
       "id": 1206844648,
@@ -140,10 +140,10 @@
         "lastUpdated": "2026-04-12T08:25:22Z"
       },
       "synced": true,
-      "syncedAt": "2026-07-19T02:04:41.632204+00:00"
+      "syncedAt": "2026-07-20T03:23:05.136310+00:00"
     }
   ],
-  "lastGitHubSync": "2026-07-19T02:04:41.632337+00:00",
+  "lastGitHubSync": "2026-07-20T03:23:05.136470+00:00",
   "gitHubUsername": "dharaneeshexe-web",
   "totalRepos": 6
 }
