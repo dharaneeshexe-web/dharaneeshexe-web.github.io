@@ -20,18 +20,42 @@
         "lastUpdated": "2026-06-01T11:37:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-29T05:08:49.823323+00:00"
+      "syncedAt": "2026-08-30T02:59:29.432378+00:00"
+    },
+    {
+      "id": 1350296370,
+      "num": "02",
+      "name": "axiom",
+      "category": "Python",
+      "description": "Axiom \u2014 commerce, decided. An autonomous agentic-checkout agent for Razorpay Track 01, with a Laminar audit trail and graceful payment-failure recovery.",
+      "stack": [
+        "Python"
+      ],
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "links": {
+        "github": "https://github.com/dharaneeshexe-web/axiom",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "lastUpdated": "2026-08-29T05:42:53Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-08-30T02:59:29.432423+00:00"
     },
     {
       "id": 1302580287,
-      "num": "02",
+      "num": "03",
       "name": "dharaneeshexe-web.github.io",
       "category": "HTML",
       "description": "A GitHub project",
       "stack": [
         "HTML"
       ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
       "links": {
         "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web.github.io",
         "demo": null
@@ -41,14 +65,14 @@
         "forks": 0,
         "language": "HTML",
         "topics": [],
-        "lastUpdated": "2026-08-28T08:29:53Z"
+        "lastUpdated": "2026-08-29T05:08:53Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-29T05:08:49.823348+00:00"
+      "syncedAt": "2026-08-30T02:59:29.432434+00:00"
     },
     {
       "id": 1253078290,
-      "num": "03",
+      "num": "04",
       "name": "multiagent-orchestrator",
       "category": "Python",
       "description": "Built a distributed multi-agent AI orchestration platform using LangGraph, FastAPI, and Groq LLMs. Implemented RAG with Qdrant, Celery workers, PostgreSQL, Prefect scheduling, OpenTelemetry tracing, Prometheus/Grafana monitoring, Docker/Kubernetes deployment, and GitHub Actions CI/CD with automated testing and rollback.",
@@ -57,7 +81,7 @@
         "FastAPI",
         "Docker"
       ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
+      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
       "links": {
         "github": "https://github.com/dharaneeshexe-web/multiagent-orchestrator",
         "demo": null
@@ -70,16 +94,16 @@
         "lastUpdated": "2026-07-05T08:52:03Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-29T05:08:49.823357+00:00"
+      "syncedAt": "2026-08-30T02:59:29.432448+00:00"
     },
     {
       "id": 1255950020,
-      "num": "04",
+      "num": "05",
       "name": "dharaneeshexe-web-",
       "category": "Open Source",
       "description": "A GitHub project",
       "stack": [],
-      "gradient": "linear-gradient(135deg, #0a2610, #1a5c2e, #27ae60)",
+      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
       "links": {
         "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web-",
         "demo": null
@@ -92,18 +116,18 @@
         "lastUpdated": "2026-06-01T10:22:33Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-29T05:08:49.823361+00:00"
+      "syncedAt": "2026-08-30T02:59:29.432457+00:00"
     },
     {
       "id": 1239379317,
-      "num": "05",
+      "num": "06",
       "name": "MEDGRAPH-TIGERGRAPH",
       "category": "HTML",
       "description": "A GitHub project",
       "stack": [
         "HTML"
       ],
-      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
+      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
       "links": {
         "github": "https://github.com/dharaneeshexe-web/MEDGRAPH-TIGERGRAPH",
         "demo": null
@@ -116,18 +140,18 @@
         "lastUpdated": "2026-05-15T09:14:13Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-29T05:08:49.823365+00:00"
+      "syncedAt": "2026-08-30T02:59:29.432466+00:00"
     },
     {
       "id": 1206844648,
-      "num": "06",
+      "num": "07",
       "name": "ecom-env",
       "category": "Python",
       "description": "A GitHub project",
       "stack": [
         "Python"
       ],
-      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
+      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
       "links": {
         "github": "https://github.com/dharaneeshexe-web/ecom-env",
         "demo": null
@@ -140,10 +164,10 @@
         "lastUpdated": "2026-04-12T08:25:22Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-29T05:08:49.823368+00:00"
+      "syncedAt": "2026-08-30T02:59:29.432473+00:00"
     }
   ],
-  "lastGitHubSync": "2026-08-29T05:08:49.823475+00:00",
+  "lastGitHubSync": "2026-08-30T02:59:29.432657+00:00",
   "gitHubUsername": "dharaneeshexe-web",
-  "totalRepos": 6
+  "totalRepos": 7
 }
