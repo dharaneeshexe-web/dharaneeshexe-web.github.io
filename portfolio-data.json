@@ -20,18 +20,42 @@
         "lastUpdated": "2026-06-01T11:37:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-30T02:59:29.432378+00:00"
+      "syncedAt": "2026-08-31T02:53:50.709487+00:00"
+    },
+    {
+      "id": 1302580287,
+      "num": "02",
+      "name": "dharaneeshexe-web.github.io",
+      "category": "HTML",
+      "description": "A GitHub project",
+      "stack": [
+        "HTML"
+      ],
+      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "links": {
+        "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web.github.io",
+        "demo": null
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "lastUpdated": "2026-08-30T02:59:41Z"
+      },
+      "synced": true,
+      "syncedAt": "2026-08-31T02:53:50.709523+00:00"
     },
     {
       "id": 1350296370,
-      "num": "02",
+      "num": "03",
       "name": "axiom",
       "category": "Python",
       "description": "Axiom \u2014 commerce, decided. An autonomous agentic-checkout agent for Razorpay Track 01, with a Laminar audit trail and graceful payment-failure recovery.",
       "stack": [
         "Python"
       ],
-      "gradient": "linear-gradient(135deg, #1a0a2e, #2d1b69, #5b2c8e)",
+      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
       "links": {
         "github": "https://github.com/dharaneeshexe-web/axiom",
         "demo": null
@@ -44,31 +68,7 @@
         "lastUpdated": "2026-08-29T05:42:53Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-30T02:59:29.432423+00:00"
-    },
-    {
-      "id": 1302580287,
-      "num": "03",
-      "name": "dharaneeshexe-web.github.io",
-      "category": "HTML",
-      "description": "A GitHub project",
-      "stack": [
-        "HTML"
-      ],
-      "gradient": "linear-gradient(135deg, #0a1628, #1a3a5c, #2980b9)",
-      "links": {
-        "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web.github.io",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "HTML",
-        "topics": [],
-        "lastUpdated": "2026-08-29T05:08:53Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-08-30T02:59:29.432434+00:00"
+      "syncedAt": "2026-08-31T02:53:50.709541+00:00"
     },
     {
       "id": 1253078290,
@@ -94,7 +94,7 @@
         "lastUpdated": "2026-07-05T08:52:03Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-30T02:59:29.432448+00:00"
+      "syncedAt": "2026-08-31T02:53:50.709575+00:00"
     },
     {
       "id": 1255950020,
@@ -116,7 +116,7 @@
         "lastUpdated": "2026-06-01T10:22:33Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-30T02:59:29.432457+00:00"
+      "syncedAt": "2026-08-31T02:53:50.709584+00:00"
     },
     {
       "id": 1239379317,
@@ -140,7 +140,7 @@
         "lastUpdated": "2026-05-15T09:14:13Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-30T02:59:29.432466+00:00"
+      "syncedAt": "2026-08-31T02:53:50.709591+00:00"
     },
     {
       "id": 1206844648,
@@ -164,10 +164,10 @@
         "lastUpdated": "2026-04-12T08:25:22Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-30T02:59:29.432473+00:00"
+      "syncedAt": "2026-08-31T02:53:50.709598+00:00"
     }
   ],
-  "lastGitHubSync": "2026-08-30T02:59:29.432657+00:00",
+  "lastGitHubSync": "2026-08-31T02:53:50.709775+00:00",
   "gitHubUsername": "dharaneeshexe-web",
   "totalRepos": 7
 }
