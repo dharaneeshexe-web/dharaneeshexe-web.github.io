@@ -20,7 +20,7 @@
         "lastUpdated": "2026-06-01T11:37:45Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-31T02:53:50.709487+00:00"
+      "syncedAt": "2026-09-01T03:01:49.453488+00:00"
     },
     {
       "id": 1302580287,
@@ -41,10 +41,10 @@
         "forks": 0,
         "language": "HTML",
         "topics": [],
-        "lastUpdated": "2026-08-30T02:59:41Z"
+        "lastUpdated": "2026-08-31T02:54:10Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-31T02:53:50.709523+00:00"
+      "syncedAt": "2026-09-01T03:01:49.453518+00:00"
     },
     {
       "id": 1350296370,
@@ -68,7 +68,7 @@
         "lastUpdated": "2026-08-29T05:42:53Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-31T02:53:50.709541+00:00"
+      "syncedAt": "2026-09-01T03:01:49.453534+00:00"
     },
     {
       "id": 1253078290,
@@ -94,40 +94,18 @@
         "lastUpdated": "2026-07-05T08:52:03Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-31T02:53:50.709575+00:00"
-    },
-    {
-      "id": 1255950020,
-      "num": "05",
-      "name": "dharaneeshexe-web-",
-      "category": "Open Source",
-      "description": "A GitHub project",
-      "stack": [],
-      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
-      "links": {
-        "github": "https://github.com/dharaneeshexe-web/dharaneeshexe-web-",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": null,
-        "topics": [],
-        "lastUpdated": "2026-06-01T10:22:33Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-08-31T02:53:50.709584+00:00"
+      "syncedAt": "2026-09-01T03:01:49.453545+00:00"
     },
     {
       "id": 1239379317,
-      "num": "06",
+      "num": "05",
       "name": "MEDGRAPH-TIGERGRAPH",
       "category": "HTML",
       "description": "A GitHub project",
       "stack": [
         "HTML"
       ],
-      "gradient": "linear-gradient(135deg, #1a0033, #4a0080, #7f00ff)",
+      "gradient": "linear-gradient(135deg, #2a0845, #6a1b9a, #ad1457)",
       "links": {
         "github": "https://github.com/dharaneeshexe-web/MEDGRAPH-TIGERGRAPH",
         "demo": null
@@ -140,34 +118,10 @@
         "lastUpdated": "2026-05-15T09:14:13Z"
       },
       "synced": true,
-      "syncedAt": "2026-08-31T02:53:50.709591+00:00"
-    },
-    {
-      "id": 1206844648,
-      "num": "07",
-      "name": "ecom-env",
-      "category": "Python",
-      "description": "A GitHub project",
-      "stack": [
-        "Python"
-      ],
-      "gradient": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
-      "links": {
-        "github": "https://github.com/dharaneeshexe-web/ecom-env",
-        "demo": null
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": "Python",
-        "topics": [],
-        "lastUpdated": "2026-04-12T08:25:22Z"
-      },
-      "synced": true,
-      "syncedAt": "2026-08-31T02:53:50.709598+00:00"
+      "syncedAt": "2026-09-01T03:01:49.453556+00:00"
     }
   ],
-  "lastGitHubSync": "2026-08-31T02:53:50.709775+00:00",
+  "lastGitHubSync": "2026-09-01T03:01:49.453695+00:00",
   "gitHubUsername": "dharaneeshexe-web",
-  "totalRepos": 7
+  "totalRepos": 5
 }
